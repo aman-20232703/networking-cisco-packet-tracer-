@@ -1,21 +1,4 @@
-#COMPUTER NETWORKING
-# Weather App ☁️
-
-A simple web application that shows real-time weather updates using OpenWeather API.
-
-## Features
-
-- Real-time weather data
-- Search by city name
-- Temperature, humidity, wind info
-- Responsive design
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
-
+                                                               # COMPUTER NETWORKING
 What is Data Communication? 
 Data Communication refers to transmission of data from one devices to another devices Through 
 Transmission medium (it can be either wired or wireless) is called Data Communication  or  
