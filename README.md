@@ -20,7 +20,6 @@ A Network is system in which two or more devices are connected and share their r
 
 ## Top Benefits of a Network 
 <b> Resource Sharing </b> : Devices on a network can share printers, scanners, storage drives, and internet connections. 
-
 <b>Easy Communication</b> : Networks enable emails, chats, video calls, and instant messaging between users in real time 
 
 <b>Data Backup and Recovery</b> : Central servers can be configured to automatically back up files, reducing data loss risk. 
