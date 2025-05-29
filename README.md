@@ -19,37 +19,25 @@ Data Communication refers to transmission of data from one devices to another de
 A Network is system in which two or more devices are connected and share their resources and exchange of data. These devices connect through either wired (like Ethernet cables) or wireless (like Wi-Fi or Bluetooth) communication channels. 
 
 ## Top Benefits of a Network 
-<b> Resource Sharing </b> : Devices on a network can share printers, scanners, storage drives, and internet 
-connections. 
-<b>Easy Communication</b> : Networks enable emails, chats, video calls, and instant messaging between 
-users in real time 
-Data Backup and Recovery : Central servers can be configured to automatically back up files, 
-reducing data loss risk. 
-Security and Access Control : Networks allow user authentication, permissions, and firewalls to 
-protect data. 
-Remote Access : With technologies like VPNs and cloud computing, users can access the network 
-remotely. 
-Network Classification 
+<b> Resource Sharing </b> : Devices on a network can share printers, scanners, storage drives, and internet connections. 
+<b>Easy Communication</b> : Networks enable emails, chats, video calls, and instant messaging between users in real time 
+<b>Data Backup and Recovery</b> : Central servers can be configured to automatically back up files, reducing data loss risk. 
+<b>Security and Access Control</b> : Networks allow user authentication, permissions, and firewalls to protect data. 
+<b>Remote Access </b>: With technologies like VPNs and cloud computing, users can access the network remotely.
+
+# Network Classification 
 Networks can be classified based on: 
 1. Geographical Area (Size and Distance) 
 2. Connection Type (Wired or Wireless) 
-3. Network Architecture (How it’s built) 
-1. By Geographical Area 
-a. A Personal Area Network (PAN) is the smallest type of computer network. It connects all the 
-devices in very smaller geographical area, usually within a range of about 10 meters (like 
-inside a room). 
-b. A Local Area Network (LAN)  is a network that connects computers and devices within a small 
-geographical area, like a home, office, or building. It allows devices to communicate, share 
-resources (like files, printers), and access the internet through a common connection. 
-c. A Campus Area Network (CAN) is a network that connects multiple local area networks 
-(LANs) within a limited geographic area, like a university campus, corporate campus, or large 
-business complex. 
-d. A Metropolitan Area Network is a network that covers a larger geographic area than a LAN 
-or CAN, typically spanning a city or metropolitan area. Covers a city or a large campus area 
-(tens of kilometers) 
-e. A Wide Area Network is a network that covers a very large geographical area, often spanning 
-cities, countries, or even continents. It connects multiple smaller networks such as LANs, 
-CANs, or MANs. 
+3. Network Architecture (How it’s built)
+    
+## 1. By Geographical Area 
+<b>a. A Personal Area Network (PAN)</b> is the smallest type of computer network. It connects all the devices in very smaller geographical area, usually within a range of about 10 meters (like inside a room). 
+<b>b. A Local Area Network (LAN)</b>  is a network that connects computers and devices within a small geographical area, like a home, office, or building. It allows devices to communicate, share resources (like files, printers), and access the internet through a common connection. 
+<b>c. A Campus Area Network (CAN)</b> is a network that connects multiple local area networks (LANs) within a limited geographic area, like a university campus, corporate campus, or large business complex. 
+<b>d. A Metropolitan Area Network</b> is a network that covers a larger geographic area than a LAN or CAN, typically spanning a city or metropolitan area. Covers a city or a large campus area (tens of kilometers) 
+<b>e. A Wide Area Network is a network</b> that covers a very large geographical area, often spanning cities, countries, or even continents. It connects multiple smaller networks such as LANs, CANs, or MANs. 
+
 2. Connection Type (Wired or Wireless) 
 What is Transmission Media? 
 Transmission media refers to the physical pathway or channel through which data signals travel from 
