@@ -250,9 +250,9 @@ https://www.openai.com/research
 ## TCP/IP (Transmission Control Protocol/Internet Protocol) 
 TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a set of communication protocols used to connect devices on the internet and most other computer networks. 
 
-<b>• IP (Internet Protocol)<b> is responsible for addressing and routing packets of data so they can travel across networks and arrive at the correct destination. 
+<b>• IP (Internet Protocol)</b> is responsible for addressing and routing packets of data so they can travel across networks and arrive at the correct destination. 
 
-<b>• TCP (Transmission Control Protocol)<b> ensures reliable delivery of data by establishing a connection, checking for errors, and managing data packets in the correct order. 
+<b>• TCP (Transmission Control Protocol)</b> ensures reliable delivery of data by establishing a connection, checking for errors, and managing data packets in the correct order. 
 
 ## FTP (File Transfer Protocol) 
 • FTP is a protocol used to transfer files between computers over a network.
@@ -301,7 +301,7 @@ TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a set o
 ## POP3 (Post Office Protocol version 3) 
 • POP3 stands for Post Office Protocol version 3. 
 
-• It is a protocol used by email clients to retrieve emails from a mail server. 
+• It is a protocol used by email clients to retrieve or recieve emails from a mail server. 
 
 • POP3 downloads the emails from the server to your device and usually deletes them from the server afterward.
 
@@ -397,6 +397,7 @@ Transmission.
 
 • They are used in networks to overcome signal loss caused by distance or interference. ADSL (Asymmetric Digital Subscriber Line) 
 
+## ADSL (Asymmetric Digital Subscriber Line)
 • ADSL stands for Asymmetric Digital Subscriber Line. 
 
 • It is a type of DSL technology used to provide high-speed internet access over regular telephone lines. 
