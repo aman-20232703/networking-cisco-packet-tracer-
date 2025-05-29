@@ -46,18 +46,29 @@ Networks can be classified based on:
 
 <b>e. A Wide Area Network is a network</b> that covers a very large geographical area, often spanning cities, countries, or even continents. It connects multiple smaller networks such as LANs, CANs, or MANs. 
 
+Network Type	      Full Form	                  Coverage Area	            Example
+PAN                   Personal Area Network       A few meters             Bluetooth devices, smart gadgets
+LAN	                  Local Area Network          Building or campus       Office/home networks
+MAN	                  Metropolitan Area Network	  City-wide	               City Wi-Fi, campus network
+WAN                   Wide Area Network	          Country to global	       Internet, global company networks
+
 ## 2. Connection Type (Wired or Wireless) 
 ### What is Transmission Media? 
 Transmission media refers to the physical pathway or channel through which data signals travel from the sender to the receiver in a communication system. It connects the transmitting device to the receiving device and allows the transmission of information such as data, voice, or video. 
 #### 1. Guided Media (Wired) : Data signals are transmitted through a physical conductor. 
-a.) Coaxial Cable  
+a.) Coaxial Cable
+
+
 A coaxial cable is a type of cable used to carry electrical signals, like TV or internet signals. It’s designed so the signal can travel clearly without getting disturbed by outside noise. It contains a copper wire at the center, which is covered by an insulating plastic layer. Around this, there is an aluminum (or metal) shield called the coaxial wire, which protects the signal from external noise and interference. 
 
 b.) STP (Shielded Twisted Pair) / UTP (Unshielded Twisted Pair) : 
+
 UTP cable is a type of network cable with pairs of wires twisted together It does not have extra shielding around the wires. STP cable is similar to UTP but has extra shielding (a metallic foil or braid) around the twisted wire pairs.
 
 c.) Fiber Optics 
+
 Fiber optics is a technology that uses very thin strands of glass or plastic fibers to transmit data as pulses of light .fiber optic cables carry information using light signals, which allows data to travel much faster and over longer distances without losing quality. 
+
 #### 2. Unguided Media (Wireless) : Data signals are transmitted through the air or space without physical conductors. 
 <b>Types of Unguided Media:</b> 
 
@@ -367,47 +378,38 @@ The TCP/IP model is the fundamental communication protocol suite for the interne
 
 ### It consists of 4 layers, each with specific roles: 
 #### 1. Application Layer  
-The Application Layer is the topmost layer of the TCP/IP model.
-
-It provides services and interfaces for user applications to communicate over a network.
-
+The Application Layer is the topmost layer of the TCP/IP model.It provides services and interfaces for user applications to communicate over a network.
 This is the layer where network-related applications like web browsers, email clients, and file transfer programs operate. 
 
 #### 2. Transport Layer 
-The Transport Layer is the second layer in the TCP/IP model (just below the Application Layer). 
-
-It is responsible for the reliable or unreliable delivery of data between devices over a network.
-
+The Transport Layer is the second layer in the TCP/IP model (just below the Application Layer). It is responsible for the reliable or unreliable delivery of data between devices over a network.
               • Breaks data into segments before transmission.
               
               • Ensures error checking, flow control, and retransmission if needed. 
               
               • Helps devices communicate reliably by managing end-to-end connections. 
 #### 3. Internet Layer 
-The Internet Layer is the third layer in the TCP/IP model, just below the Transport Layer. 
-
-It is responsible for routing data packets between devices across multiple networks and ensuring they reach the correct destination. 
-• Logical addressing using IP addresses. 
-• Packet routing: Choosing the best path for data to travel. 
-• Encapsulation and Decapsulation of data into packets. 
-• Handling error reporting and diagnostics. 
+The Internet Layer is the third layer in the TCP/IP model, just below the Transport Layer. It is responsible for routing data packets between devices across multiple networks and ensuring they reach the correct destination. 
+                 • Logical addressing using IP addresses. 
+                 • Packet routing: Choosing the best path for data to travel. 
+                 • Encapsulation and Decapsulation of data into packets. 
+                 • Handling error reporting and diagnostics. 
+                 
 #### 4 . Network Access Layer (also called Link Layer or Network Interface Layer) 
-The Network Access Layer is the lowest layer in the TCP/IP model. It is responsible for the physical 
-transmission of data over the network — from one device to another on the same local network. 
-• Framing: Breaks data into frames for transmission. 
-• MAC addressing: Uses physical (hardware) addresses to identify devices. 
-• Error detection (basic, at the frame level). 
-• Manages how data is placed on the network media (like cables or wireless signals). 
+The Network Access Layer is the lowest layer in the TCP/IP model. It is responsible for the physical transmission of data over the network — from one device to another on the same local network. 
+          • Framing: Breaks data into frames for transmission. 
+          • MAC addressing: Uses physical (hardware) addresses to identify devices. 
+          • Error detection (basic, at the frame level). 
+          • Manages how data is placed on the network media (like cables or wireless signals). 
+          
 ## 2 . OSI Model  
 The OSI Model standardizes how network systems communicate and interact. 
 ### It helps break down complex networking processes into 7 manageable layers: 
 #### 1. Physical Layer  
-The Physical Layer is the first and lowest layer of the OSI model. It is responsible for the actual 
-physical connection between devices, including the transmission and reception of raw bits over a 
-physical medium (like cables, radio waves, or fiber optics) 
+The Physical Layer is the first and lowest layer of the OSI model. It is responsible for the actual physical connection between devices, including the transmission and reception of raw bits over a physical medium (like cables, radio waves, or fiber optics) 
 Main Purposes: 
 1. Bit Transmission 
-o Converts data into electrical, optical, or radio signals and transmits those raw bits over 
+Converts data into electrical, optical, or radio signals and transmits those raw bits over 
 the physical medium. 
 2. Defines Physical Characteristics 
 o Specifies cables, connectors, voltage levels, signal timing, and data rates. 
