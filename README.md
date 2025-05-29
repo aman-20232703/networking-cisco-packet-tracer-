@@ -61,24 +61,34 @@ Fiber optics is a technology that uses very thin strands of glass or plastic fib
 #### 2. Unguided Media (Wireless) : Data signals are transmitted through the air or space without physical conductors. 
 Types of Unguided Media: 
 <b>• Radio Waves:</b> Used for broadcast radio, TV, and mobile communication. 
+
 <b>• Microwaves:</b>Used for satellite communication and point-to-point communication. 
+
 <b>• Infrared:</b> Used for short-range communication such as remote controls. 
+
 <b>• Satellite Communication:</b> Uses satellites to transmit signals over very long distances 
+
 #### 3. Network Architecture (How it’s built) 
 Network architecture refers to the design and structure of a computer network. It defines how different devices like computers, servers, routers, and switches are connected and how they communicate with each other. 
 ##### Types of Network Architecture 
 <b>A.Peer-to-Peer (P2P):</b> In a Peer-to-Peer (P2P) network, all computers (called peers) are equal. Each device can act as both a client (requesting data) and a server (sharing data). There is no central server controlling the network. 
 ##### Advantages of P2P 
 • Easy to set up and use, especially for small networks.
+
 • No need for expensive central servers. 
+
 • If one computer goes offline, others can still communicate. 
+
 • Good for sharing files like music, videos, or documents. 
 
 <b>B.Client-Server:</b> In a Client-Server network, there is a central server that provides resources, data, or services, and multiple clients (computers or devices) connect to this server to use those services. 
 ##### Advantages of Client-Server Network 
 • Centralized control makes it easier to manage and secure the network. 
-• Servers can be very powerful and handle many clients at once. 
+
+• Servers can be very powerful and handle many clients at once.
+
 • Easier to back up data because it’s stored centrally. 
+
 • Good for businesses and large organizations.
 
 ## What is Network Topology? 
@@ -88,15 +98,22 @@ Network Topology refers to the Structural arrangement or layout pattern of vario
 In Bus Topology, all devices (computers, printers, etc.) are connected to a single central cable called the bus or backbone. This cable acts as a shared communication medium that carries data signals to all devices. a device sends data, the signal travels along the bus in both directions. 
 #### Advantages 
 • Simple and Easy to Install: Requires less cabling compared to other topologies. 
+
 • Cost-Effective: Uses the least amount of cable, reducing costs. 
+
 • Good for Small Networks: Works well with a small number of devices 
+
 ### 2. Ring Topology 
 In Ring Topology, each device is connected to exactly two other devices, forming a closed loop or ring. Data travels around the ring in one direction (or sometimes both directions in a dual ring) until it reaches its destination. 
 #### Advantages 
 • Orderly Network: Data passes in one direction, reducing the chance of packet collisions. 
+
 • High Performance: Suitable for networks with heavy traffic because each device waits its turn to transmit. 
+
 • Equal Access: Each device has equal opportunity to transmit data. 
-• Fault Detection: Faulty devices can be easier to detect with proper monitoring. 
+
+• Fault Detection: Faulty devices can be easier to detect with proper monitoring.
+
 ### 3. Star Topology 
 In Star Topology, all devices (computers, printers, etc.) are connected individually to a central device such as a switch, hub, or router. The central device acts as a communication hub through which all data passes 
 #### Advantages 
@@ -109,25 +126,37 @@ In Mesh Topology, every device is connected directly to every other device in th
 multiple paths exist between any two devices. 
 #### Types of Mesh Topology 
 <b>• Full Mesh:</b> Every device is connected to every other device. 
+
 <b>• Partial Mesh:</b> Some devices are connected to multiple devices, but not all. 
 #### Advantages 
-• Very reliable: Failure of one device or connection does not affect network communication. 
+• Very reliable: Failure of one device or connection does not affect network communication.
+
 • Data can be transmitted simultaneously: Multiple devices can communicate at the same time. 
+
 • Fault tolerance: Easy to detect and isolate faults. 
+
 • High privacy and security: Data travels through dedicated paths. 
+
 ### 5. Tree Topology 
 Tree Topology is a combination of Star and Bus topologies. It consists of groups of star-configured networks connected to a linear bus backbone cable. It resembles a tree structure with branches. 
 #### Advantages 
 • Scalable: Easy to add new nodes or branches. 
+
 • Fault isolation: Faults in one branch do not affect the entire network. 
+
 • Better organized: Structured and hierarchical layout. 
+
 • Supports large networks: Can handle many devices. 
+
 ### 6. Hybrid Topology 
 Hybrid Topology is a combination of two or more different types of network topologies (like star, bus, ring, mesh) integrated into a single network. It leverages the strengths and minimizes the weaknesses of the combined topologies. 
 #### Advantages 
 • Highly flexible: Can use the best topology suited for each part of the network. 
+
 • Scalable: Easy to expand by adding different topologies. 
+
 • Fault tolerance: Problems in one part do not necessarily affect the whole network. 
+
 • Efficient: Optimizes performance by combining topologies. 
 Note : -  
 What is IEEE? 
