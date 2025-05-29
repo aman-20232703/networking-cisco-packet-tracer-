@@ -20,6 +20,7 @@ A Network is system in which two or more devices are connected and share their r
 
 ## Top Benefits of a Network 
 <b> Resource Sharing </b> : Devices on a network can share printers, scanners, storage drives, and internet connections. 
+
 <b>Easy Communication</b> : Networks enable emails, chats, video calls, and instant messaging between users in real time 
 
 <b>Data Backup and Recovery</b> : Central servers can be configured to automatically back up files, reducing data loss risk. 
@@ -36,33 +37,28 @@ Networks can be classified based on:
     
 ## 1. By Geographical Area 
 <b>a. A Personal Area Network (PAN)</b> is the smallest type of computer network. It connects all the devices in very smaller geographical area, usually within a range of about 10 meters (like inside a room). 
+
 <b>b. A Local Area Network (LAN)</b>  is a network that connects computers and devices within a small geographical area, like a home, office, or building. It allows devices to communicate, share resources (like files, printers), and access the internet through a common connection. 
+
 <b>c. A Campus Area Network (CAN)</b> is a network that connects multiple local area networks (LANs) within a limited geographic area, like a university campus, corporate campus, or large business complex. 
+
 <b>d. A Metropolitan Area Network</b> is a network that covers a larger geographic area than a LAN or CAN, typically spanning a city or metropolitan area. Covers a city or a large campus area (tens of kilometers) 
+
 <b>e. A Wide Area Network is a network</b> that covers a very large geographical area, often spanning cities, countries, or even continents. It connects multiple smaller networks such as LANs, CANs, or MANs. 
 
-2. Connection Type (Wired or Wireless) 
-What is Transmission Media? 
-Transmission media refers to the physical pathway or channel through which data signals travel from 
-the sender to the receiver in a communication system. It connects the transmitting device to the 
-receiving device and allows the transmission of information such as data, voice, or video. 
-1. Guided Media (Wired) : Data signals are transmitted through a physical conductor. 
+## 2. Connection Type (Wired or Wireless) 
+### What is Transmission Media? 
+Transmission media refers to the physical pathway or channel through which data signals travel from the sender to the receiver in a communication system. It connects the transmitting device to the receiving device and allows the transmission of information such as data, voice, or video. 
+#### 1. Guided Media (Wired) : Data signals are transmitted through a physical conductor. 
 a.) Coaxial Cable  
-A coaxial cable is a type of cable used to carry electrical signals, like TV or internet signals. It’s 
-designed so the signal can travel clearly without getting disturbed by outside noise. It contains 
-a copper wire at the center, which is covered by an insulating plastic layer. Around this, there 
-is an aluminum (or metal) shield called the coaxial wire, which protects the signal from 
-external noise and interference. 
+A coaxial cable is a type of cable used to carry electrical signals, like TV or internet signals. It’s designed so the signal can travel clearly without getting disturbed by outside noise. It contains a copper wire at the center, which is covered by an insulating plastic layer. Around this, there is an aluminum (or metal) shield called the coaxial wire, which protects the signal from external noise and interference. 
+
 b.) STP (Shielded Twisted Pair) / UTP (Unshielded Twisted Pair) : 
-UTP cable is a type of network cable with pairs of wires twisted together It does not have extra 
-shielding around the wires. STP cable is similar to UTP but has extra shielding (a metallic foil or 
-braid) around the twisted wire pairs. 
+UTP cable is a type of network cable with pairs of wires twisted together It does not have extra shielding around the wires. STP cable is similar to UTP but has extra shielding (a metallic foil or braid) around the twisted wire pairs.
+
 c.) Fiber Optics 
-Fiber optics is a technology that uses very thin strands of glass or plastic fibers to transmit data 
-as pulses of light .fiber optic cables carry information using light signals, which allows data to 
-travel much faster and over longer distances without losing quality. 
-2. Unguided Media (Wireless) : Data signals are transmitted through the air or space without physical 
-conductors. 
+Fiber optics is a technology that uses very thin strands of glass or plastic fibers to transmit data as pulses of light .fiber optic cables carry information using light signals, which allows data to travel much faster and over longer distances without losing quality. 
+#### 2. Unguided Media (Wireless) : Data signals are transmitted through the air or space without physical conductors. 
 Types of Unguided Media: 
 • Radio Waves: 
 Used for broadcast radio, TV, and mobile communication. 
@@ -72,26 +68,22 @@ Used for satellite communication and point-to-point communication.
 Used for short-range communication such as remote controls. 
 • Satellite Communication: 
 Uses satellites to transmit signals over very long distances 
-3. Network Architecture (How it’s built) 
-Network architecture refers to the design and structure of a computer network. It defines how 
-different devices like computers, servers, routers, and switches are connected and how they 
-communicate with each other. 
-Types of Network Architecture 
-Peer-to-Peer (P2P): In a Peer-to-Peer (P2P) network, all computers (called peers) are equal. Each 
-device can act as both a client (requesting data) and a server (sharing data). There is no central server 
-controlling the network. 
-Advantages of P2P 
+#### 3. Network Architecture (How it’s built) 
+Network architecture refers to the design and structure of a computer network. It defines how different devices like computers, servers, routers, and switches are connected and how they communicate with each other. 
+##### Types of Network Architecture 
+<b>Peer-to-Peer (P2P):</b> In a Peer-to-Peer (P2P) network, all computers (called peers) are equal. Each device can act as both a client (requesting data) and a server (sharing data). There is no central server controlling the network. 
+##### Advantages of P2P 
 • Easy to set up and use, especially for small networks. 
 • No need for expensive central servers. 
 • If one computer goes offline, others can still communicate. 
 • Good for sharing files like music, videos, or documents. 
-Client-Server: In a Client-Server network, there is a central server that provides resources, data, or 
-services, and multiple clients (computers or devices) connect to this server to use those services. 
-Advantages of Client-Server Network 
+<b>Client-Server:</b> In a Client-Server network, there is a central server that provides resources, data, or services, and multiple clients (computers or devices) connect to this server to use those services. 
+##### Advantages of Client-Server Network 
 • Centralized control makes it easier to manage and secure the network. 
 • Servers can be very powerful and handle many clients at once. 
 • Easier to back up data because it’s stored centrally. 
-• Good for businesses and large organizations. 
+• Good for businesses and large organizations.
+
 What is Network Topology? 
 Network Topology refers to the Structural arrangement or layout pattern of various elements (links, 
 nodes, etc.) in a computer network. It defines how different devices (computers, printers, servers) are 
