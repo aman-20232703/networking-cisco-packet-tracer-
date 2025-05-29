@@ -84,7 +84,7 @@ Fiber optics is a technology that uses very thin strands of glass or plastic fib
 #### 3. Network Architecture (How it’s built) 
 Network architecture refers to the design and structure of a computer network. It defines how different devices like computers, servers, routers, and switches are connected and how they communicate with each other. 
 ##### Types of Network Architecture 
-<b>A.Peer-to-Peer (P2P):</b> In a Peer-to-Peer (P2P) network, all computers (called peers) are equal. Each device can act as both a client (requesting data) and a server (sharing data). There is no central server controlling the network. 
+<b>A.Peer-to-Peer (P2P):</b> In a P2P architecture, all computers (called peers) are equal. Each one can act as both a client (requesting data/services) and a server (providing data/services). There's no central server. 
 ##### Advantages of P2P 
 • Easy to set up and use, especially for small networks.
 
@@ -94,7 +94,7 @@ Network architecture refers to the design and structure of a computer network. I
 
 • Good for sharing files like music, videos, or documents. 
 
-<b>B.Client-Server:</b> In a Client-Server network, there is a central server that provides resources, data, or services, and multiple clients (computers or devices) connect to this server to use those services. 
+<b>B.Client-Server:</b> In a Client-Server architecture, the network has a central server that provides services or resources, and multiple clients that request and use these services.
 ##### Advantages of Client-Server Network 
 • Centralized control makes it easier to manage and secure the network. 
 
@@ -105,10 +105,10 @@ Network architecture refers to the design and structure of a computer network. I
 • Good for businesses and large organizations.
 
 # What is Network Topology? 
-Network Topology refers to the Structural arrangement or layout pattern of various elements (links, nodes, etc.) in a computer network. It defines how different devices (computers, printers, servers) are connected and how data flows between them. 
+it is the structure of connection between two computer or layout in which network devices are connected to each other. Topology is selected on the basis of the number of versiuon networked in the segment, the speed in the network and the budget for thr network.
 ### Type of Topology 
 #### 1. Bus Topology  
-In Bus Topology, all devices (computers, printers, etc.) are connected to a single central cable called the bus or backbone. This cable acts as a shared communication medium that carries data signals to all devices. a device sends data, the signal travels along the bus in both directions. 
+In Bus Topology, all devices (computers, printers, etc.) are connected to a single central cable called the bus or backbone.it is economical because it use single cable. any failure in the cable can halt the entire network. it can travel upto 500m without amplification. thye coaxial cable in this topology are restitive to external electromagnetic interferences.it also used terminator to end the signal after successful delivery.
 #### Advantages 
 • Simple and Easy to Install: Requires less cabling compared to other topologies. 
 
@@ -116,8 +116,10 @@ In Bus Topology, all devices (computers, printers, etc.) are connected to a sing
 
 • Good for Small Networks: Works well with a small number of devices 
 
+•can add more devices: we can add more devices through wire
+
 ### 2. Ring Topology 
-In Ring Topology, each device is connected to exactly two other devices, forming a closed loop or ring. Data travels around the ring in one direction (or sometimes both directions in a dual ring) until it reaches its destination. 
+all the devices on the network are connected to each other to form a ring. each device has reciever and transmitter that act a repeter and send signal to the next computer. in this topology signal travel in a circle, passing through each computer on the network because there are no terminated in the ring. The ring topology support coaxiaol, twisted as well as fibre optic cable. A token ring are used in this topology to pass turn one by one to each devices . common protocols used to imoplement ring topolgy are tokrn ring, fibre optic data interface. 
 #### Advantages 
 • Orderly Network: Data passes in one direction, reducing the chance of packet collisions. 
 
@@ -128,12 +130,16 @@ In Ring Topology, each device is connected to exactly two other devices, forming
 • Fault Detection: Faulty devices can be easier to detect with proper monitoring.
 
 ### 3. Star Topology 
-In Star Topology, all devices (computers, printers, etc.) are connected individually to a central device such as a switch, hub, or router. The central device acts as a communication hub through which all data passes 
+All the devices are connected to each other through central concentrator(hub and switch) forming star like structure. The computer can be connected to the hub or switch using UTP, STP & optic-fibre. the cost to setup a star is high becuase each device on network will utilize an individual length of cable from the concentrator to its location. failure of sigle device doesnot halt entire netwok but failure of concentrator can halt.common protocols used in this :- ethrnet, tokenring, ARCnet & localtalk.
 #### Advantages 
-• Easy to manage and troubleshoot: Faults are isolated to individual connections. 
+• Easy to manage and troubleshoot: Faults are isolated to individual connections.
+
 • Failure of one device does not affect the entire network. 
+
 • Scalable: Easy to add more devices. 
+
 • Better performance: Data can be sent to multiple devices without collisions if a switch is used. 
+
 ### 4. Mesh Topology  
 In Mesh Topology, every device is connected directly to every other device in the network. This means 
 multiple paths exist between any two devices. 
@@ -174,10 +180,12 @@ Hybrid Topology is a combination of two or more different types of network topol
 Note : -  
 # What is IEEE? 
 • IEEE stands for Institute of Electrical and Electronics Engineers. 
+
 • It is a global professional association dedicated to advancing technology. 
+
 • IEEE develops and publishes widely accepted standards for various fields including networking, electronics, power, and telecommunications. 
 
-Its standards 
+## Its standards 
 <b>IEEE 802.3 — Ethernet :</b> It is the standard for Ethernet, the most common wired networking technology worldwide.Defines the physical layer and data link layer specifications for wired LANs.Specifies how devices format and transmit data over cables. 
 
 <b>IEEE 802.11 (Wi-Fi):</b> Wireless networking standard used in almost all wireless devices.
@@ -188,24 +196,35 @@ Its standards
 
 # Networking Terms  
 ## DNS (Domain Name System) 
-• DNS stands for Domain Name System. 
+•The Domain Name System (DNS) is like the internet's phonebook.
 
-• It’s a system that translates human-readable domain names (like www.google.com) into machinereadable IP addresses (like 142.250.190.78). 
+•When you type a website name like www.google.com, your computer doesn't understand that directly. It sends a query to a DNS server to find the IP address (e.g., 142.250.183.206) of the server hosting the website.
 
-• This allows users to access websites using easy names instead of numeric IP addresses. 
+•This allows users to use human-readable names instead of remembering numbers.
+
+•DNS operates mainly over UDP on port 53.
+
+### 🔹 Example:
+<b>Typing www.facebook.com → DNS query → Returns IP address → Browser connects to that IP.</b>
 
 ## URL (Uniform Resource Locator) 
-• URL stands for Uniform Resource Locator. 
+•A URL is the complete address used to access a specific resource on the internet.
 
-• It is the address used to locate resources on the internet, such as web pages, images, or files. 
+•It includes multiple components: <br>
+https://www.openai.com/research
+|       |           |        |
+|       |           |        --> Path (specific page/folder)
+|       |           --> Domain name (mapped to IP)
+|       --> Protocol (HTTP/HTTPS/FTP/etc.)
+--> Scheme indicator
 
-• A URL tells your browser where and how to find a resource on the web. 
+• URLs tell your browser what protocol to use and where to connect.
+ 
+• For example, in the URL https://www.example.com/index.html: 
 
-For example, in the URL https://www.example.com/index.html: 
-
-<b> https:// is the protocol that tells how to access the resource. </b>
-<b> www.example.com is the domain name of the website.</b> 
-<b> /index.html is the path to a specific page or file on that website. </b>
+            • <b> https:// is the protocol that tells how to access the resource. </b>
+            • <b> www.example.com is the domain name of the website.</b> 
+            • <b> /index.html is the path to a specific page or file on that website. </b>
 
 ## CDMA (Code Division Multiple Access) 
 • CDMA stands for Code Division Multiple Access. 
@@ -236,16 +255,24 @@ TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a set o
 <b>• TCP (Transmission Control Protocol)<b> ensures reliable delivery of data by establishing a connection, checking for errors, and managing data packets in the correct order. 
 
 ## FTP (File Transfer Protocol) 
-• FTP stands for File Transfer Protocol. 
+• FTP is a protocol used to transfer files between computers over a network.
 
-• It is a standard network protocol used to transfer files between a client and a server over the internet or a network. 
+• Operates on TCP port 21 (control) and 20 (data).
+
+• Typically used for uploading websites or downloading large files.
+
+⚠️ FTP sends data in plain text, so it’s not secure unless used with FTPS or SFTP.
 
 • FTP allows users to upload, download, rename, delete, or move files on a remote server. 
 
 • It is commonly used for website management, sharing files, and backup purposes. HTTP (Hypertext Transfer Protocol) 
 
 ## HTTP stands for Hypertext Transfer Protocol. 
-• It is the protocol used by the web to transfer web pages from a server to your browser. 
+• The protocol used by web browsers to request and display web pages.
+
+• It operates over TCP port 80.
+
+• Sends data in plain text.
 
 • When you enter a website address, your browser uses HTTP to request the web page from the server. 
 
@@ -262,6 +289,8 @@ TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a set o
 
 ## SMTP (Simple Mail Transfer Protocol) 
 • SMTP stands for Simple Mail Transfer Protocol. 
+
+• Operates over TCP port 443. 
 
 • It is a protocol used to send and transfer email messages between mail servers on the internet. 
 
@@ -286,11 +315,16 @@ TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a set o
 • This means you can access your emails from multiple devices, and changes like reading or deleting emails are synced across all devices. 
 
 ## Telnet 
-• Telnet is a network protocol used to connect to a remote computer or device over the internet or a local network. 
+• Telnet is a command-line tool that allows you to remotely log in to another computer or network device (like a router or switch).
 
-• It allows users to access and control a remote system’s command-line interface as if they were physically present at the machine.
+• Works over TCP port 23.
 
-• Telnet sends data in plain text, so it is not secure and has mostly been replaced by more secure protocols like SSH. 
+• Sends all data, including passwords, in plain text (not secure).
+
+• Mostly replaced by SSH (Secure Shell) in modern systems.
+
+![Screenshot 2025-05-29 235656](https://github.com/user-attachments/assets/30d21fe3-6028-4bd3-a136-4639c86630e0)
+
 
 # Networking Devices 
 ## Hub 
