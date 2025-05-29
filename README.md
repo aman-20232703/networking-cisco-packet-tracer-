@@ -59,7 +59,8 @@ UTP cable is a type of network cable with pairs of wires twisted together It doe
 c.) Fiber Optics 
 Fiber optics is a technology that uses very thin strands of glass or plastic fibers to transmit data as pulses of light .fiber optic cables carry information using light signals, which allows data to travel much faster and over longer distances without losing quality. 
 #### 2. Unguided Media (Wireless) : Data signals are transmitted through the air or space without physical conductors. 
-Types of Unguided Media: 
+<b>Types of Unguided Media:</b> 
+
 <b>• Radio Waves:</b> Used for broadcast radio, TV, and mobile communication. 
 
 <b>• Microwaves:</b>Used for satellite communication and point-to-point communication. 
@@ -91,7 +92,7 @@ Network architecture refers to the design and structure of a computer network. I
 
 • Good for businesses and large organizations.
 
-## What is Network Topology? 
+# What is Network Topology? 
 Network Topology refers to the Structural arrangement or layout pattern of various elements (links, nodes, etc.) in a computer network. It defines how different devices (computers, printers, servers) are connected and how data flows between them. 
 ### Type of Topology 
 #### 1. Bus Topology  
@@ -159,25 +160,26 @@ Hybrid Topology is a combination of two or more different types of network topol
 
 • Efficient: Optimizes performance by combining topologies. 
 Note : -  
-What is IEEE? 
+# What is IEEE? 
 • IEEE stands for Institute of Electrical and Electronics Engineers. 
 • It is a global professional association dedicated to advancing technology. 
-• IEEE develops and publishes widely accepted standards for various fields including 
-networking, electronics, power, and telecommunications. 
+• IEEE develops and publishes widely accepted standards for various fields including networking, electronics, power, and telecommunications. 
+
 Its standards 
-IEEE 802.3 — Ethernet : It is the standard for Ethernet, the most common wired networking 
-technology worldwide.Defines the physical layer and data link layer specifications for wired 
-LANs.Specifies how devices format and transmit data over cables. 
-IEEE 802.11 (Wi-Fi): Wireless networking standard used in almost all wireless devices. 
-IEEE 802.1Q: VLAN tagging standard, crucial for network segmentation. 
-IEEE 802.1D: Spanning Tree Protocol (STP) to prevent network loops. 
-Networking Terms  
-DNS (Domain Name System) 
+<b>IEEE 802.3 — Ethernet :</b> It is the standard for Ethernet, the most common wired networking technology worldwide.Defines the physical layer and data link layer specifications for wired LANs.Specifies how devices format and transmit data over cables. 
+
+<b>IEEE 802.11 (Wi-Fi):</b> Wireless networking standard used in almost all wireless devices.
+
+<b>IEEE 802.1Q:</b> VLAN tagging standard, crucial for network segmentation. 
+
+<b>IEEE 802.1D:</b> Spanning Tree Protocol (STP) to prevent network loops. 
+
+# Networking Terms  
+## DNS (Domain Name System) 
 • DNS stands for Domain Name System. 
-• It’s a system that translates human-readable domain names (like www.google.com) into machine
-readable IP addresses (like 142.250.190.78). 
+• It’s a system that translates human-readable domain names (like www.google.com) into machinereadable IP addresses (like 142.250.190.78). 
 • This allows users to access websites using easy names instead of numeric IP addresses. 
-URL (Uniform Resource Locator) 
+## URL (Uniform Resource Locator) 
 • URL stands for Uniform Resource Locator. 
 • It is the address used to locate resources on the internet, such as web pages, images, or files. 
 • A URL tells your browser where and how to find a resource on the web. 
