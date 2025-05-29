@@ -227,7 +227,7 @@ https://www.openai.com/research
             • <b> /index.html is the path to a specific page or file on that website. </b>
 
 ## CDMA (Code Division Multiple Access) 
-• CDMA stands for Code Division Multiple Access. 
+• CDMA stands for Code Division Multiple Access.  
 
 • It is a wireless communication technology used for mobile networks.
 
