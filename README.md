@@ -1,4 +1,4 @@
-                                                          <h2>COMPUTER NETWORKING</h2>
+                                                          <b>COMPUTER NETWORKING</b>
 What is Data Communication? 
 Data Communication refers to transmission of data from one devices to another devices Through 
 Transmission medium (it can be either wired or wireless) is called Data Communication  or  
