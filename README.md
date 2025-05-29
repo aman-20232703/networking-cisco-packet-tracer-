@@ -60,20 +60,16 @@ c.) Fiber Optics
 Fiber optics is a technology that uses very thin strands of glass or plastic fibers to transmit data as pulses of light .fiber optic cables carry information using light signals, which allows data to travel much faster and over longer distances without losing quality. 
 #### 2. Unguided Media (Wireless) : Data signals are transmitted through the air or space without physical conductors. 
 Types of Unguided Media: 
-• Radio Waves: 
-Used for broadcast radio, TV, and mobile communication. 
-• Microwaves: 
-Used for satellite communication and point-to-point communication. 
-• Infrared: 
-Used for short-range communication such as remote controls. 
-• Satellite Communication: 
-Uses satellites to transmit signals over very long distances 
+<b>• Radio Waves:</b> Used for broadcast radio, TV, and mobile communication. 
+<b>• Microwaves:</b>Used for satellite communication and point-to-point communication. 
+<b>• Infrared:</b> Used for short-range communication such as remote controls. 
+<b>• Satellite Communication:</b> Uses satellites to transmit signals over very long distances 
 #### 3. Network Architecture (How it’s built) 
 Network architecture refers to the design and structure of a computer network. It defines how different devices like computers, servers, routers, and switches are connected and how they communicate with each other. 
 ##### Types of Network Architecture 
 <b>A.Peer-to-Peer (P2P):</b> In a Peer-to-Peer (P2P) network, all computers (called peers) are equal. Each device can act as both a client (requesting data) and a server (sharing data). There is no central server controlling the network. 
 ##### Advantages of P2P 
-• Easy to set up and use, especially for small networks. 
+• Easy to set up and use, especially for small networks.
 • No need for expensive central servers. 
 • If one computer goes offline, others can still communicate. 
 • Good for sharing files like music, videos, or documents. 
