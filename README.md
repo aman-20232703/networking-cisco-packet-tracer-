@@ -1,10 +1,12 @@
-                                                               # COMPUTER NETWORKING
-What is Data Communication? 
+# COMPUTER NETWORKING
+
+# What is Data Communication? 
 Data Communication refers to transmission of data from one devices to another devices Through 
 Transmission medium (it can be either wired or wireless) is called Data Communication  or  
 exchange information efficiently and accurately across distances, whether between computers, 
 servers, sensors, or other devices. 
-Key Components of Data Communication: 
+
+## Key Components of Data Communication: 
 1. Sender: The device that sends the data (e.g., computer, smartphone). 
 2. Receiver: The device that receives the data. 
 3. Message: The actual data (text, audio, video, etc.). 
