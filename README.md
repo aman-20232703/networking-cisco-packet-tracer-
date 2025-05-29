@@ -5,21 +5,21 @@ Data Communication refers to transmission of data from one devices to another de
 
 ## Key Components of Data Communication: 
 ##### 1. Sender: The device that sends the data (e.g., computer, smartphone). 
-2. Receiver: The device that receives the data. 
-3. Message: The actual data (text, audio, video, etc.). 
-4. Transmission Medium: The physical path (like cables or air) through which the message 
-travels. 
-5. Protocol: A set of rules that govern the communication (e.g., TCP/IP). 
-Types of Data Communication: 
-1. Simplex: Data flows in one direction only (e.g., keyboard to computer). 
-2. Half-Duplex: Data flows in both directions, but only one direction at a time (e.g., walkie-talkie). 
-3. Full-Duplex: Data flows in both directions simultaneously (e.g., phone calls). 
-What is a Network? 
-A Network is system in which two or more devices are connected and share their resources and 
-exchange of data . These devices connect through either wired (like Ethernet cables) or wireless (like 
-Wi-Fi or Bluetooth) communication channels. 
-Top Benefits of a Network 
-Resource Sharing : Devices on a network can share printers, scanners, storage drives, and internet 
+##### 2. Receiver: The device that receives the data. 
+##### 3. Message: The actual data (text, audio, video, etc.). 
+##### 4. Transmission Medium: The physical path (like cables or air) through which the message travels. 
+##### 5. Protocol: A set of rules that govern the communication (e.g., TCP/IP). 
+
+## Types of Data Communication: 
+##### 1. Simplex: Data flows in one direction only (e.g., keyboard to computer). 
+##### 2. Half-Duplex: Data flows in both directions, but only one direction at a time (e.g., walkie-talkie). 
+##### 3. Full-Duplex: Data flows in both directions simultaneously (e.g., phone calls). 
+
+# What is a Network? 
+A Network is system in which two or more devices are connected and share their resources and exchange of data. These devices connect through either wired (like Ethernet cables) or wireless (like Wi-Fi or Bluetooth) communication channels. 
+
+## Top Benefits of a Network 
+<b> Resource Sharing </b> : Devices on a network can share printers, scanners, storage drives, and internet 
 connections. 
 Easy Communication : Networks enable emails, chats, video calls, and instant messaging between 
 users in real time 
