@@ -46,11 +46,6 @@ Networks can be classified based on:
 
 <b>e. A Wide Area Network is a network</b> that covers a very large geographical area, often spanning cities, countries, or even continents. It connects multiple smaller networks such as LANs, CANs, or MANs. 
 
-Network Type	      Full Form	                  Coverage Area	            Example
-PAN                   Personal Area Network       A few meters             Bluetooth devices, smart gadgets
-LAN	                  Local Area Network          Building or campus       Office/home networks
-MAN	                  Metropolitan Area Network	  City-wide	               City Wi-Fi, campus network
-WAN                   Wide Area Network	          Country to global	       Internet, global company networks
 ![Screenshot 2025-05-29 230950](https://github.com/user-attachments/assets/b041a0db-fcf7-4fd5-9700-06bc0d6170ec)
 
 
@@ -70,6 +65,8 @@ UTP cable is a type of network cable with pairs of wires twisted together It doe
 c.) Fiber Optics 
 
 Fiber optics is a technology that uses very thin strands of glass or plastic fibers to transmit data as pulses of light .fiber optic cables carry information using light signals, which allows data to travel much faster and over longer distances without losing quality. 
+![image](https://github.com/user-attachments/assets/3915e5e3-8c3f-40a4-8484-0bc293e1ded0)
+
 
 #### 2. Unguided Media (Wireless) : Data signals are transmitted through the air or space without physical conductors. 
 <b>Types of Unguided Media:</b> 
