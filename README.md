@@ -177,186 +177,231 @@ Its standards
 # Networking Terms  
 ## DNS (Domain Name System) 
 • DNS stands for Domain Name System. 
+
 • It’s a system that translates human-readable domain names (like www.google.com) into machinereadable IP addresses (like 142.250.190.78). 
+
 • This allows users to access websites using easy names instead of numeric IP addresses. 
+
 ## URL (Uniform Resource Locator) 
 • URL stands for Uniform Resource Locator. 
+
 • It is the address used to locate resources on the internet, such as web pages, images, or files. 
+
 • A URL tells your browser where and how to find a resource on the web. 
+
 For example, in the URL https://www.example.com/index.html: 
-o https:// is the protocol that tells how to access the resource. 
-o www.example.com is the domain name of the website. 
-o /index.html is the path to a specific page or file on that website. 
-CDMA (Code Division Multiple Access) 
+
+<b> https:// is the protocol that tells how to access the resource. </b>
+<b> www.example.com is the domain name of the website.</b> 
+<b> /index.html is the path to a specific page or file on that website. </b>
+
+## CDMA (Code Division Multiple Access) 
 • CDMA stands for Code Division Multiple Access. 
-• It is a wireless communication technology used for mobile networks. 
-• CDMA allows multiple users to share the same frequency band simultaneously by assigning unique 
-codes to each user’s signal. 
+
+• It is a wireless communication technology used for mobile networks.
+
+• CDMA allows multiple users to share the same frequency band simultaneously by assigning unique codes to each user’s signal. 
+
 • This technique improves the efficiency and capacity of the network compared to older methods. 
-• CDMA is widely used in 3G cellular networks to provide voice and data services 
-GSM (Global System for Mobile Communications) 
-• GSM stands for Global System for Mobile Communications. 
+
+• CDMA is widely used in 3G cellular networks to provide voice and data services GSM (Global System for Mobile Communications) 
+
+## GSM stands for Global System for Mobile Communications. 
 • It is a standard technology for mobile networks used worldwide. 
-• GSM uses time division multiple access (TDMA) to allow multiple users to share the same 
-frequency by dividing the signal into different time slots. 
+
+• GSM uses time division multiple access (TDMA) to allow multiple users to share the same frequency by dividing the signal into different time slots. 
+
 • It supports voice calls, SMS (text messaging), and data services. 
-• GSM is the most widely used mobile communication technology globally, especially in 2G and 3G 
-networks. 
-Some Important Protocol  
-TCP/IP (Transmission Control Protocol/Internet Protocol) 
-TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a set of communication protocols 
-used to connect devices on the internet and most other computer networks. 
-• IP (Internet Protocol) is responsible for addressing and routing packets of data so they can travel 
-across networks and arrive at the correct destination. 
-• TCP (Transmission Control Protocol) ensures reliable delivery of data by establishing a 
-connection, checking for errors, and managing data packets in the correct order. 
-FTP (File Transfer Protocol) 
+
+• GSM is the most widely used mobile communication technology globally, especially in 2G and 3G networks. 
+
+# Some Important Protocol  
+## TCP/IP (Transmission Control Protocol/Internet Protocol) 
+TCP/IP stands for Transmission Control Protocol/Internet Protocol. It is a set of communication protocols used to connect devices on the internet and most other computer networks. 
+
+<b>• IP (Internet Protocol)<b> is responsible for addressing and routing packets of data so they can travel across networks and arrive at the correct destination. 
+
+<b>• TCP (Transmission Control Protocol)<b> ensures reliable delivery of data by establishing a connection, checking for errors, and managing data packets in the correct order. 
+
+## FTP (File Transfer Protocol) 
 • FTP stands for File Transfer Protocol. 
-• It is a standard network protocol used to transfer files between a client and a server over the 
-internet or a network. 
+
+• It is a standard network protocol used to transfer files between a client and a server over the internet or a network. 
+
 • FTP allows users to upload, download, rename, delete, or move files on a remote server. 
-• It is commonly used for website management, sharing files, and backup purposes. 
-HTTP (Hypertext Transfer Protocol) 
-• HTTP stands for Hypertext Transfer Protocol. 
+
+• It is commonly used for website management, sharing files, and backup purposes. HTTP (Hypertext Transfer Protocol) 
+
+## HTTP stands for Hypertext Transfer Protocol. 
 • It is the protocol used by the web to transfer web pages from a server to your browser. 
+
 • When you enter a website address, your browser uses HTTP to request the web page from the server. 
-• HTTP defines how messages are formatted and transmitted, and how web servers and browsers 
-should respond to commands 
-HTTPS (Hypertext Transfer Protocol Secure) 
-• HTTPS stands for Hypertext Transfer Protocol Secure. 
-• It is the secure version of HTTP used to transfer web pages safely over the internet. 
-• HTTPS encrypts the data exchanged between your browser and the website, protecting it from 
-hackers and eavesdroppers. 
+
+• HTTP defines how messages are formatted and transmitted, and how web servers and browsers should respond to commands HTTPS (Hypertext Transfer Protocol Secure)
+
+## HTTPS stands for Hypertext Transfer Protocol Secure. 
+• It is the secure version of HTTP used to transfer web pages safely over the internet.
+
+• HTTPS encrypts the data exchanged between your browser and the website, protecting it from hackers and eavesdroppers. 
+
 • It uses protocols like SSL/TLS to ensure privacy and data integrity. 
-• Websites using HTTPS show a padlock symbol in the browser’s address bar, indicating a secure 
-connection. 
-•  
-SMTP (Simple Mail Transfer Protocol) 
+
+• Websites using HTTPS show a padlock symbol in the browser’s address bar, indicating a secure connection. 
+
+## SMTP (Simple Mail Transfer Protocol) 
 • SMTP stands for Simple Mail Transfer Protocol. 
+
 • It is a protocol used to send and transfer email messages between mail servers on the internet. 
-• SMTP handles the process of sending outgoing emails from your email client to the recipient’s mail 
-server. 
-• It works alongside other protocols like POP3 or IMAP, which are used to receive and manage 
-emails. 
-POP3 (Post Office Protocol version 3) 
+
+• SMTP handles the process of sending outgoing emails from your email client to the recipient’s mail server. 
+
+• It works alongside other protocols like POP3 or IMAP, which are used to receive and manage emails. 
+
+## POP3 (Post Office Protocol version 3) 
 • POP3 stands for Post Office Protocol version 3. 
+
 • It is a protocol used by email clients to retrieve emails from a mail server. 
-• POP3 downloads the emails from the server to your device and usually deletes them from the server 
-afterward. 
-IMAP4 (Internet Message Access Protocol version 4) 
+
+• POP3 downloads the emails from the server to your device and usually deletes them from the server afterward.
+
+## IMAP4 (Internet Message Access Protocol version 4) 
 • IMAP4 stands for Internet Message Access Protocol version 4. 
+
 • It is a protocol used by email clients to access and manage emails stored on a mail server. 
-• Unlike POP3, IMAP4 allows you to view and organize your emails directly on the server without 
-downloading them permanently. 
-• This means you can access your emails from multiple devices, and changes like reading or deleting 
-emails are synced across all devices. 
-Telnet 
-• Telnet is a network protocol used to connect to a remote computer or device over the internet or 
-a local network. 
-• It allows users to access and control a remote system’s command-line interface as if they were 
-physically present at the machine. 
-• Telnet sends data in plain text, so it is not secure and has mostly been replaced by more secure 
-protocols like SSH. 
-Networking Devices 
-Hub 
-• A Hub is a basic networking device used to connect multiple computers or devices in a local area 
-network (LAN). 
-• It works by receiving data packets from one device and broadcasting them to all other 
-connected devices. 
-• Hubs operate at the physical layer (Layer 1) of the OSI model. 
-• They do not filter or manage any traffic — this means all devices receive all data, which can lead to 
-collisions and reduced network efficiency. 
-Switch 
+
+• Unlike POP3, IMAP4 allows you to view and organize your emails directly on the server without downloading them permanently. 
+
+• This means you can access your emails from multiple devices, and changes like reading or deleting emails are synced across all devices. 
+
+## Telnet 
+• Telnet is a network protocol used to connect to a remote computer or device over the internet or a local network. 
+
+• It allows users to access and control a remote system’s command-line interface as if they were physically present at the machine.
+
+• Telnet sends data in plain text, so it is not secure and has mostly been replaced by more secure protocols like SSH. 
+
+# Networking Devices 
+## Hub 
+• A Hub is a basic networking device used to connect multiple computers or devices in a local area network (LAN). 
+
+• It works by receiving data packets from one device and broadcasting them to all other connected devices. 
+
+• Hubs operate at the physical layer (Layer 1) of the OSI model.
+
+• They do not filter or manage any traffic — this means all devices receive all data, which can lead to collisions and reduced network efficiency. 
+
+## Switch 
 • A Switch is a networking device that connects multiple devices in a local area network (LAN). 
-• Unlike a hub, a switch receives data and forwards it only to the specific device for which the data 
-is intended. 
+
+• Unlike a hub, a switch receives data and forwards it only to the specific device for which the data is intended. 
+
 • Switches operate at the data link layer (Layer 2) of the OSI model. 
-• They improve network efficiency by reducing data collisions and managing traffic intelligently 
-using MAC addresses. 
-Router  
-• A Router is a networking device that connects different networks together, such as your home 
-network to the internet. 
+
+• They improve network efficiency by reducing data collisions and managing traffic intelligently using MAC addresses. 
+
+## Router  
+• A Router is a networking device that connects different networks together, such as your home network to the internet. 
+
 • It forwards data packets between networks by determining the best path for the data to travel. 
+
 • Routers operate at the network layer (Layer 3) of the OSI model. 
-• They use IP addresses to route data and often provide additional features like firewall protection, 
-DHCP, and NAT. 
-• Routers are essential for directing internet traffic and enabling communication between devices on 
-different networks. 
-Bridge 
-• A Bridge is a networking device that connects two or more separate local area networks (LANs) to 
-work as a single network. 
+
+• They use IP addresses to route data and often provide additional features like firewall protection, DHCP, and NAT. 
+
+• Routers are essential for directing internet traffic and enabling communication between devices on different networks. 
+
+## Bridge 
+• A Bridge is a networking device that connects two or more separate local area networks (LANs) to work as a single network. 
+
 • It operates at the data link layer (Layer 2) of the OSI model. 
-• A bridge filters traffic by inspecting MAC addresses and only forwards data to the part of the 
-network where the destination device is located. 
+
+• A bridge filters traffic by inspecting MAC addresses and only forwards data to the part of the network where the destination device is located. 
+
 • This helps reduce network traffic and improves efficiency by preventing unnecessary data 
-transmission. 
-• Bridges are used to divide large networks into smaller segments to reduce collisions and improve 
-performance. 
-Gateway 
-• A Gateway is a networking device that connects two different networks that use different protocols 
-or architectures. 
-• It acts as a translator, enabling communication between networks that would otherwise be 
-incompatible. 
+Transmission. 
+
+• Bridges are used to divide large networks into smaller segments to reduce collisions and improve performance. 
+
+## Gateway 
+• A Gateway is a networking device that connects two different networks that use different protocols or architectures. 
+
+• It acts as a translator, enabling communication between networks that would otherwise be incompatible. 
+
 • Gateways operate at multiple layers of the OSI model, depending on their function. 
-• For example, a gateway can connect a company’s internal network to the internet or link two 
-different network systems. 
+
+• For example, a gateway can connect a company’s internal network to the internet or link two different network systems. 
+
 • Gateways are essential for enabling data flow between different network environments. 
-Modem 
+
+## Modem 
 • A Modem stands for Modulator-Demodulator. 
-• It is a device that converts digital data from a computer into analog signals for transmission over 
-telephone or cable lines, and vice versa. 
-• Modems allow your computer or network to connect to the internet through these analog 
-communication lines. 
+
+• It is a device that converts digital data from a computer into analog signals for transmission over telephone or cable lines, and vice versa. 
+
+• Modems allow your computer or network to connect to the internet through these analog communication lines. 
+
 • They play a crucial role in broadband connections like DSL, cable internet, or dial-up. 
-Repeater 
-• A Repeater is a networking device that amplifies and regenerates signals to extend the distance 
-over which data can travel in a network. 
-• It receives a weak or distorted signal, cleans and boosts it, then retransmits it at its original strength. 
+
+## Repeater 
+• A Repeater is a networking device that amplifies and regenerates signals to extend the distance over which data can travel in a network. 
+
+• It receives a weak or distorted signal, cleans and boosts it, then retransmits it at its original strength.
+
 • Repeaters operate at the physical layer (Layer 1) of the OSI model. 
-• They are used in networks to overcome signal loss caused by distance or interference. 
-ADSL (Asymmetric Digital Subscriber Line) 
+
+• They are used in networks to overcome signal loss caused by distance or interference. ADSL (Asymmetric Digital Subscriber Line) 
+
 • ADSL stands for Asymmetric Digital Subscriber Line. 
-• It is a type of DSL technology used to provide high-speed internet access over regular telephone 
-lines. 
-• "Asymmetric" means that the download speed is faster than the upload speed, which suits typical 
-internet use like browsing and streaming. 
+
+• It is a type of DSL technology used to provide high-speed internet access over regular telephone lines. 
+
+• "Asymmetric" means that the download speed is faster than the upload speed, which suits typical internet use like browsing and streaming. 
+
 • ADSL allows you to use the internet and make phone calls simultaneously on the same line. 
-• It is commonly used for home and small business internet connections. 
-There Are Two Type of Model  
-1. TCP/IP Model      2. OSI Model  
-The TCP/IP model is the fundamental communication protocol suite for the internet and most modern 
-networks. 
-It consists of 4 layers, each with specific roles: 
-1. Application Layer  
-The Application Layer is the topmost layer of the TCP/IP model. 
-It provides services and interfaces for user applications to communicate over a network. 
-This is the layer where network-related applications like web browsers, email clients, and file transfer 
-programs operate. 
-2. Transport Layer 
+
+• It is commonly used for home and small business internet connections.
+
+# There Are Two Type of Model  
+## 1. TCP/IP Model  
+The TCP/IP model is the fundamental communication protocol suite for the internet and most modern networks. 
+
+### It consists of 4 layers, each with specific roles: 
+#### 1. Application Layer  
+The Application Layer is the topmost layer of the TCP/IP model.
+
+It provides services and interfaces for user applications to communicate over a network.
+
+This is the layer where network-related applications like web browsers, email clients, and file transfer programs operate. 
+
+#### 2. Transport Layer 
 The Transport Layer is the second layer in the TCP/IP model (just below the Application Layer). 
-It is responsible for the reliable or unreliable delivery of data between devices over a network. 
-• Breaks data into segments before transmission. 
-• Ensures error checking, flow control, and retransmission if needed. 
-• Helps devices communicate reliably by managing end-to-end connections. 
-3. Internet Layer 
-The Internet Layer is the third layer in the TCP/IP model, just below the Transport Layer. It is 
-responsible for routing data packets between devices across multiple networks and ensuring they reach the 
-correct destination. 
+
+It is responsible for the reliable or unreliable delivery of data between devices over a network.
+
+              • Breaks data into segments before transmission.
+              
+              • Ensures error checking, flow control, and retransmission if needed. 
+              
+              • Helps devices communicate reliably by managing end-to-end connections. 
+#### 3. Internet Layer 
+The Internet Layer is the third layer in the TCP/IP model, just below the Transport Layer. 
+
+It is responsible for routing data packets between devices across multiple networks and ensuring they reach the correct destination. 
 • Logical addressing using IP addresses. 
 • Packet routing: Choosing the best path for data to travel. 
 • Encapsulation and Decapsulation of data into packets. 
 • Handling error reporting and diagnostics. 
-4 . Network Access Layer (also called Link Layer or Network Interface Layer) 
+#### 4 . Network Access Layer (also called Link Layer or Network Interface Layer) 
 The Network Access Layer is the lowest layer in the TCP/IP model. It is responsible for the physical 
 transmission of data over the network — from one device to another on the same local network. 
 • Framing: Breaks data into frames for transmission. 
 • MAC addressing: Uses physical (hardware) addresses to identify devices. 
 • Error detection (basic, at the frame level). 
 • Manages how data is placed on the network media (like cables or wireless signals). 
-2 . OSI Model  
-The OSI Model standardizes how network systems communicate and interact. It helps break down 
-complex networking processes into 7 manageable layers: 
-1. Physical Layer  
+## 2 . OSI Model  
+The OSI Model standardizes how network systems communicate and interact. 
+### It helps break down complex networking processes into 7 manageable layers: 
+#### 1. Physical Layer  
 The Physical Layer is the first and lowest layer of the OSI model. It is responsible for the actual 
 physical connection between devices, including the transmission and reception of raw bits over a 
 physical medium (like cables, radio waves, or fiber optics) 
@@ -377,7 +422,7 @@ Ethernet at the Physical Layer (Layer 1)
 medium (like cables or fiber). 
 • Ethernet defines the physical standards for cables, connectors, voltage levels, and signaling 
 methods. 
-2. Data Link Layer  
+#### 2. Data Link Layer  
 The Data Link Layer is the second layer of the OSI model. It is responsible for node to node delivery of 
 data or we can say that hope to hope delivery of data . This means it ensures data is reliably 
 transferred between two directly connected devices (or nodes) on the same network segment. 
@@ -519,7 +564,7 @@ Common Error Correction Methods:
 o Receiver requests retransmission if errors are detected. 
 2. Forward Error Correction (FEC): 
 o Extra bits added so the receiver can detect AND fix errors by itself. 
-3. Network Layer  
+#### 3. Network Layer  
 The Network Layer is the part of a computer network that decides how data travels from one 
 computer to another, even if they are on different networks. 
 It gives each device an IP address, chooses the best path for the data, and helps it reach the right 
@@ -647,7 +692,7 @@ Default Routing A path used when no specific route is found in the routing table
 RIP (Routing Information Protocol) 
 RIP is one of the oldest dynamic routing protocols used in computer networks to help routers 
 exchange routing information. 
-4 . Transport Layer  
+#### 4 . Transport Layer  
 The Transport Layer is responsible for end-to-end communication and data transfer between host 
 systems. It ensures that data is delivered reliably, in order, and without errors. 
 Main Functions of Transport Layer: 
@@ -722,7 +767,7 @@ Multiplexing is the process of combining multiple data streams from different ap
 sources into a single stream to be sent over a network. 
 Demultiplexing is the process of separating a single incoming stream into multiple streams and 
 delivering each to the correct application. 
-5. Session Layer  
+#### 5. Session Layer  
 The Session Layer is responsible for establishing, managing, and terminating sessions between two 
 communicating devices or applications. It ensures that communication is properly organized and 
 synchronized. 
@@ -749,7 +794,7 @@ NetBIOS
 Supports communication in LANs. 
 PPTP 
 SMPP 
-6. Presentation Layer  
+#### 6. Presentation Layer  
 Used for VPN sessions. 
 Used in SMS message exchange systems. 
 The Presentation Layer is like the translator and formatter of the OSI model. Its main job is to ensure 
@@ -779,7 +824,7 @@ Image formatting
 ASCII, EBCDIC Text encoding formats 
 MIME 
 Used for formatting email data 
-7. Application layer  
+#### 7. Application layer  
 The Application Layer is the topmost layer of the OSI model. It directly interacts with the end-user 
 and provides network services to applications (like web browsers, email clients, etc.). 
 Main Functions of the Application Layer: 
