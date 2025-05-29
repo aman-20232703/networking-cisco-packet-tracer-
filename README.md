@@ -51,6 +51,8 @@ PAN                   Personal Area Network       A few meters             Bluet
 LAN	                  Local Area Network          Building or campus       Office/home networks
 MAN	                  Metropolitan Area Network	  City-wide	               City Wi-Fi, campus network
 WAN                   Wide Area Network	          Country to global	       Internet, global company networks
+![Screenshot 2025-05-29 230950](https://github.com/user-attachments/assets/b041a0db-fcf7-4fd5-9700-06bc0d6170ec)
+
 
 ## 2. Connection Type (Wired or Wireless) 
 ### What is Transmission Media? 
