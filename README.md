@@ -65,7 +65,9 @@ UTP cable is a type of network cable with pairs of wires twisted together It doe
 c.) Fiber Optics 
 
 Fiber optics is a technology that uses very thin strands of glass or plastic fibers to transmit data as pulses of light .fiber optic cables carry information using light signals, which allows data to travel much faster and over longer distances without losing quality. 
-![image](https://github.com/user-attachments/assets/3915e5e3-8c3f-40a4-8484-0bc293e1ded0)
+
+![image](https://github.com/user-attachments/assets/47963dce-48c4-47f2-bc7b-96f418b7c75f)
+
 
 
 #### 2. Unguided Media (Wireless) : Data signals are transmitted through the air or space without physical conductors. 
