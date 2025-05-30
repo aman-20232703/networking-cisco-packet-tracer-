@@ -413,25 +413,25 @@ Transmission.
 The TCP/IP model is the fundamental communication protocol suite for the internet and most modern networks. 
 
 ### It consists of 4 layers, each with specific roles: 
-#### 1. Application Layer  
+### 1. Application Layer  
 The Application Layer is the topmost layer of the TCP/IP model.It provides services and interfaces for user applications to communicate over a network.
 This is the layer where network-related applications like web browsers, email clients, and file transfer programs operate. 
 
-#### 2. Transport Layer 
+### 2. Transport Layer 
 The Transport Layer is the second layer in the TCP/IP model (just below the Application Layer). It is responsible for the reliable or unreliable delivery of data between devices over a network.
               • Breaks data into segments before transmission.
               
               • Ensures error checking, flow control, and retransmission if needed. 
               
               • Helps devices communicate reliably by managing end-to-end connections. 
-#### 3. Internet Layer 
+### 3. Internet Layer 
 The Internet Layer is the third layer in the TCP/IP model, just below the Transport Layer. It is responsible for routing data packets between devices across multiple networks and ensuring they reach the correct destination. 
                  • Logical addressing using IP addresses. 
                  • Packet routing: Choosing the best path for data to travel. 
                  • Encapsulation and Decapsulation of data into packets. 
                  • Handling error reporting and diagnostics. 
                  
-#### 4 . Network Access Layer (also called Link Layer or Network Interface Layer) 
+### 4 . Network Access Layer (also called Link Layer or Network Interface Layer) 
 The Network Access Layer is the lowest layer in the TCP/IP model. It is responsible for the physical transmission of data over the network — from one device to another on the same local network. 
           • Framing: Breaks data into frames for transmission. 
           • MAC addressing: Uses physical (hardware) addresses to identify devices. 
@@ -441,143 +441,123 @@ The Network Access Layer is the lowest layer in the TCP/IP model. It is responsi
 ## 2 . OSI Model  
 The OSI Model standardizes how network systems communicate and interact. 
 ### It helps break down complex networking processes into 7 manageable layers: 
-#### 1. Physical Layer  
+### 1. Physical Layer  
 The Physical Layer is the first and lowest layer of the OSI model. It is responsible for the actual physical connection between devices, including the transmission and reception of raw bits over a physical medium (like cables, radio waves, or fiber optics) 
-Main Purposes: 
-1. Bit Transmission 
-Converts data into electrical, optical, or radio signals and transmits those raw bits over 
-the physical medium. 
-2. Defines Physical Characteristics 
+#### Main Purposes:
+<b>1. Bit Transmission </b>
+Converts data into electrical, optical, or radio signals and transmits those raw bits over the physical medium. 
+<b>2. Defines Physical Characteristics </b>
 o Specifies cables, connectors, voltage levels, signal timing, and data rates. 
-3. Transmission Medium 
+<b>3. Transmission Medium </b>
 o Supports various media like copper wires, fiber optics, wireless signals, etc. 
-4. Topology and Network Design 
+<b>4. Topology and Network Design </b>
 o Supports physical layout like bus, star, ring topologies. 
-5. Synchronization of Bits 
+<b>5. Synchronization of Bits </b>
 o Ensures sender and receiver are synchronized to properly interpret bits. 
-Ethernet at the Physical Layer (Layer 1) 
-• The Physical Layer is responsible for transmitting raw bits (0s and 1s) over the physical 
-medium (like cables or fiber). 
-• Ethernet defines the physical standards for cables, connectors, voltage levels, and signaling 
-methods. 
-#### 2. Data Link Layer  
+#### Ethernet at the Physical Layer (Layer 1) 
+• The Physical Layer is responsible for transmitting raw bits (0s and 1s) over the physical medium (like cables or fiber).
+
+• Ethernet defines the physical standards for cables, connectors, voltage levels, and signaling methods. 
+### 2. Data Link Layer  
 The Data Link Layer is the second layer of the OSI model. It is responsible for node to node delivery of 
 data or we can say that hope to hope delivery of data . This means it ensures data is reliably 
 transferred between two directly connected devices (or nodes) on the same network segment. 
-Main Purposes: 
-1.    
-2.    
-3.    
-4.    
-5.    
-Framing 
+#### Main Purposes:     
+<b>1. Framing </b>
 o Divides the stream of bits into manageable units called frames. 
-Error Detection & Correction 
+<b>2. Error Detection & Correction </b>
 o Detects errors that may occur in the Physical Layer and may request retransmission. 
-Flow Control 
-o Manages the rate of data transmission between sender and receiver to avoid 
-congestion. 
-MAC Addressing 
-o Uses MAC (Media Access Control) addresses to identify devices on a local network. 
-Media Access Control (MAC) 
-o Determines how devices share the communication channel (important in shared 
-networks like Ethernet). 
-What is Framing? 
+<b>3. Flow Control </b>
+o Manages the rate of data transmission between sender and receiver to avoid congestion. 
+<b>4. MAC Addressing </b>
+o Uses MAC (Media Access Control) addresses to identify devices on a local network.
+<b>5. Media Access Control (MAC) </b>
+o Determines how devices share the communication channel (important in shared networks like Ethernet).
+
+#### What is Framing? 
 Framing is the process of dividing raw data bits from the network layer into manageable units called 
 frames before transmission over the physical medium. 
-There are two types of framing: 
-1. Fixed-size: The frame is of fixed size and there is no need to provide boundaries to the frame, the 
-length of the frame itself acts as a delimiter. 
-2. Variable size: In this, there is a need to define the end of the frame as well as the beginning of the 
-next frame to distinguish. 
+##### There are two types of framing: 
+<b>1. Fixed-size:<b> The frame is of fixed size and there is no need to provide boundaries to the frame, the length of the frame itself acts as a delimiter.
+
+2. Variable size: In this, there is a need to define the end of the frame as well as the beginning of the next frame to distinguish. 
 1. Character/Byte Stuffing: Used when frames consist of characters 
-2 . Bit stuffing: Bit stuffing is a technique used to prevent data from being interpreted as control 
-characters by inserting extra bits into the data stream. 
-Simple Example: 
-• Suppose the data contains: 
-01111110 (this is the flag pattern) 
-• Before sending, the sender changes it to: 
-0111110 0 10 
-(inserts a '0' after five consecutive '1's) 
-• The receiver, seeing the extra '0', knows to remove it to get back the original data. 
+2 . Bit stuffing: Bit stuffing is a technique used to prevent data from being interpreted as control characters by inserting extra bits into the data stream. 
+##### Simple Example: 
+• Suppose the data contains: 01111110 (this is the flag pattern) 
+
+• Before sending, the sender changes it to: 0111110 0 10 (inserts a '0' after five consecutive '1's) 
+
+• The receiver, seeing the extra '0', knows to remove it to get back the original data.
+
 Flag: 01111110 
+
 Frame: 01111110 0111110010 01111110  (start Flag | data | end Flag)  
-What is Switching in Networking? 
-Switching is the process of directing data packets between devices in a network. It decides the best 
-path for data to travel from the source to the destination. 
-Types of Switching: 
+
+#### What is Switching in Networking? 
+Switching is the process of directing data packets between devices in a network. It decides the best path for data to travel from the source to the destination. 
+##### Types of Switching: 
 1. Circuit Switching 
-o A dedicated communication path is established between sender and receiver for the 
-entire duration of the communication. 
+o A dedicated communication path is established between sender and receiver for the entire duration of the communication. 
 o Example: Traditional telephone networks. 
 2. Packet Switching 
-o Data is broken into small packets. Each packet is sent independently and may take 
-different routes to reach the destination. 
+o Data is broken into small packets. Each packet is sent independently and may take different routes to reach the destination. 
 o Example: The internet. 
 3. Message Switching 
-o Entire messages are sent to the next switch and stored until the next path is free (store
-and-forward). 
+o Entire messages are sent to the next switch and stored until the next path is free (storeand-forward). 
 o Example: Early email systems. 
-Why is switching important? 
+##### Why is switching important? 
 • It manages traffic efficiently in a network. 
 • Helps connect multiple devices and enables communication. 
 • Optimizes the use of network resources. 
-Spanning Tree Protocol (STP) 
-Spanning Tree Protocol (STP) is a network protocol used to prevent loops in a switched Ethernet 
-network. It can ensure that each device has one active path between two network devices .  
-Ethernet in the Data Link Layer 
+##### Spanning Tree Protocol (STP) 
+Spanning Tree Protocol (STP) is a network protocol used to prevent loops in a switched Ethernet network. It can ensure that each device has one active path between two network devices .  
+##### Ethernet in the Data Link Layer 
 • Ethernet operates mainly at the Data Link Layer (Layer 2) of the OSI model. 
 • It defines how devices format data into frames and control access to the physical medium. 
 • Ethernet frames include important fields like: 
-o Destination MAC address 
-o Source MAC address 
-o Type/Length 
-o Data payload 
-o Frame Check Sequence (FCS) for error detection 
-o  
-What is MAC? 
-MAC (Media Access Control) is a way to manage how devices share a communication channel 
-(like a network cable or wireless frequency). It decides who talks when so data doesn’t get mixed up. 
-Three ways devices share the network: 
+                o Destination MAC address 
+                o Source MAC address 
+                o Type/Length 
+                o Data payload 
+                o Frame Check Sequence (FCS) for error detection 
+
+##### What is MAC? 
+MAC (Media Access Control) is a way to manage how devices share a communication channel (like a network cable or wireless frequency). It decides who talks when so data doesn’t get mixed up. 
+##### Three ways devices share the network: 
 1. Aloha 
-• The simplest method. 
-• Devices send data whenever they want. 
-• If two devices send at the same time, collision happens, and data is lost. 
-• Devices wait a random time and try sending again. 
-• Works well when the network is not busy. 
+    • The simplest method. 
+    • Devices send data whenever they want. 
+    • If two devices send at the same time, collision happens, and data is lost. 
+    • Devices wait a random time and try sending again. 
+    • Works well when the network is not busy. 
 2. Slotted Aloha 
-• An improved version of Aloha. 
-• Time is divided into slots. 
-• Devices can only send data at the start of a time slot. 
-• This reduces collisions because devices can’t send randomly anytime. 
-• Better efficiency than pure Aloha. 
+   • An improved version of Aloha. 
+    • Time is divided into slots. 
+    • Devices can only send data at the start of a time slot. 
+    • This reduces collisions because devices can’t send randomly anytime. 
+    • Better efficiency than pure Aloha. 
 3. CSMA (Carrier Sense Multiple Access) 
-• Before sending, a device listens to the channel. 
-• If the channel is free, it sends data. 
-• If the channel is busy, it waits before trying. 
-• Reduces chances of collision compared to Aloha. 
-• Variants like CSMA/CD (Collision Detection) are used in Ethernet. 
+    • Before sending, a device listens to the channel. 
+    • If the channel is free, it sends data. 
+    • If the channel is busy, it waits before trying. 
+    • Reduces chances of collision compared to Aloha. 
+    • Variants like CSMA/CD (Collision Detection) are used in Ethernet. 
 What is Flow Control? 
-• Flow Control is a way to manage the speed of data transmission between a sender and a 
-receiver. 
+• Flow Control is a way to manage the speed of data transmission between a sender and a receiver. 
 • It ensures the sender doesn’t send data faster than the receiver can handle. 
-• Prevents data loss caused by receiver’s buffer overflow. 
-Common Flow Control methods: 
+• Prevents data loss caused by receiver’s buffer overflow. Common Flow Control methods: 
 Stop-and-Wait  
 • It's a simple flow control method. 
 • The sender sends one data packet (frame) at a time. 
-• Then the sender waits for the receiver to send an acknowledgment (ACK) before sending the 
-next packet. 
+• Then the sender waits for the receiver to send an acknowledgment (ACK) before sending the next packet. 
 Go Back N  
 • It’s a flow control and error control method used in data communication. 
-• The sender can send multiple frames (up to a window size) without waiting for ACKs for each 
-one. 
-• If an error or lost frame is detected, the sender goes back and resends that frame and all the 
-frames sent after it. 
+• The sender can send multiple frames (up to a window size) without waiting for ACKs for each one. 
+• If an error or lost frame is detected, the sender goes back and resends that frame and all the frames sent after it. 
 Selective Repeat 
 • It’s an advanced flow and error control protocol. 
-• The sender can send multiple frames (like Go-Back-N), but the receiver only asks for the 
-specific frames that are lost or have errors. 
+• The sender can send multiple frames (like Go-Back-N), but the receiver only asks for the specific frames that are lost or have errors. 
 • The receiver accepts frames out of order and buffers them until missing frames arrive. 
 What is Error Detection? 
 • It’s the process of finding errors in data during transmission. 
