@@ -444,43 +444,39 @@ The OSI Model standardizes how network systems communicate and interact.
 ### 1. Physical Layer  
 The Physical Layer is the first and lowest layer of the OSI model. It is responsible for the actual physical connection between devices, including the transmission and reception of raw bits over a physical medium (like cables, radio waves, or fiber optics) 
 #### Main Purposes:
-<b>1. Bit Transmission </b>
-Converts data into electrical, optical, or radio signals and transmits those raw bits over the physical medium. 
-<b>2. Defines Physical Characteristics </b>
-o Specifies cables, connectors, voltage levels, signal timing, and data rates. 
-<b>3. Transmission Medium </b>
-o Supports various media like copper wires, fiber optics, wireless signals, etc. 
-<b>4. Topology and Network Design </b>
-o Supports physical layout like bus, star, ring topologies. 
-<b>5. Synchronization of Bits </b>
-o Ensures sender and receiver are synchronized to properly interpret bits. 
+<b>1. Bit Transmission </b>Converts data into electrical, optical, or radio signals and transmits those raw bits over the physical medium. 
+
+<b>2. Defines Physical Characteristics </b>o Specifies cables, connectors, voltage levels, signal timing, and data rates. 
+
+<b>3. Transmission Medium </b>o Supports various media like copper wires, fiber optics, wireless signals, etc. 
+
+<b>4. Topology and Network Design </b>o Supports physical layout like bus, star, ring topologies. 
+
+<b>5. Synchronization of Bits </b>o Ensures sender and receiver are synchronized to properly interpret bits. 
+
 #### Ethernet at the Physical Layer (Layer 1) 
 • The Physical Layer is responsible for transmitting raw bits (0s and 1s) over the physical medium (like cables or fiber).
 
 • Ethernet defines the physical standards for cables, connectors, voltage levels, and signaling methods. 
 ### 2. Data Link Layer  
-The Data Link Layer is the second layer of the OSI model. It is responsible for node to node delivery of 
-data or we can say that hope to hope delivery of data . This means it ensures data is reliably 
-transferred between two directly connected devices (or nodes) on the same network segment. 
+The Data Link Layer is the second layer of the OSI model. It is responsible for node to node delivery of data or we can say that hope to hope delivery of data . This means it ensures data is reliably transferred between two directly connected devices (or nodes) on the same network segment. 
 #### Main Purposes:     
-<b>1. Framing </b>
-o Divides the stream of bits into manageable units called frames. 
-<b>2. Error Detection & Correction </b>
-o Detects errors that may occur in the Physical Layer and may request retransmission. 
-<b>3. Flow Control </b>
-o Manages the rate of data transmission between sender and receiver to avoid congestion. 
-<b>4. MAC Addressing </b>
-o Uses MAC (Media Access Control) addresses to identify devices on a local network.
-<b>5. Media Access Control (MAC) </b>
-o Determines how devices share the communication channel (important in shared networks like Ethernet).
+<b>1. Framing </b>o Divides the stream of bits into manageable units called frames. 
+
+<b>2. Error Detection & Correction </b>o Detects errors that may occur in the Physical Layer and may request retransmission. 
+
+<b>3. Flow Control </b>o Manages the rate of data transmission between sender and receiver to avoid congestion. 
+
+<b>4. MAC Addressing </b>o Uses MAC (Media Access Control) addresses to identify devices on a local network.
+
+<b>5. Media Access Control (MAC) </b>o Determines how devices share the communication channel (important in shared networks like Ethernet).
 
 #### What is Framing? 
-Framing is the process of dividing raw data bits from the network layer into manageable units called 
-frames before transmission over the physical medium. 
+Framing is the process of dividing raw data bits from the network layer into manageable units called frames before transmission over the physical medium. 
 ##### There are two types of framing: 
-<b>1. Fixed-size:<b> The frame is of fixed size and there is no need to provide boundaries to the frame, the length of the frame itself acts as a delimiter.
+<b>1. Fixed-size:</b> The frame is of fixed size and there is no need to provide boundaries to the frame, the length of the frame itself acts as a delimiter.
 
-2. Variable size: In this, there is a need to define the end of the frame as well as the beginning of the next frame to distinguish. 
+<b>2. Variable size:</b> Inthis, there is a need to define the end of the frame as well as the beginning of the next frame to distinguish. 
 1. Character/Byte Stuffing: Used when frames consist of characters 
 2 . Bit stuffing: Bit stuffing is a technique used to prevent data from being interpreted as control characters by inserting extra bits into the data stream. 
 ##### Simple Example: 
@@ -497,24 +493,29 @@ Frame: 01111110 0111110010 01111110  (start Flag | data | end Flag)
 #### What is Switching in Networking? 
 Switching is the process of directing data packets between devices in a network. It decides the best path for data to travel from the source to the destination. 
 ##### Types of Switching: 
-1. Circuit Switching 
-o A dedicated communication path is established between sender and receiver for the entire duration of the communication. 
-o Example: Traditional telephone networks. 
-2. Packet Switching 
-o Data is broken into small packets. Each packet is sent independently and may take different routes to reach the destination. 
-o Example: The internet. 
-3. Message Switching 
-o Entire messages are sent to the next switch and stored until the next path is free (storeand-forward). 
-o Example: Early email systems. 
+<b>1. Circuit Switching</b> 
+    o A dedicated communication path is established between sender and receiver for the entire duration of the communication. 
+    o Example: Traditional telephone networks. 
+<b>2. Packet Switching </b>
+    o Data is broken into small packets. Each packet is sent independently and may take different routes to reach the destination. 
+    o Example: The internet. 
+<b>3. Message Switching </b>
+    o Entire messages are sent to the next switch and stored until the next path is free (storeand-forward). 
+    o Example: Early email systems. 
 ##### Why is switching important? 
 • It manages traffic efficiently in a network. 
-• Helps connect multiple devices and enables communication. 
+
+• Helps connect multiple devices and enables communication.
+
 • Optimizes the use of network resources. 
+
 ##### Spanning Tree Protocol (STP) 
 Spanning Tree Protocol (STP) is a network protocol used to prevent loops in a switched Ethernet network. It can ensure that each device has one active path between two network devices .  
 ##### Ethernet in the Data Link Layer 
 • Ethernet operates mainly at the Data Link Layer (Layer 2) of the OSI model. 
+
 • It defines how devices format data into frames and control access to the physical medium. 
+
 • Ethernet frames include important fields like: 
                 o Destination MAC address 
                 o Source MAC address 
@@ -526,147 +527,142 @@ Spanning Tree Protocol (STP) is a network protocol used to prevent loops in a sw
 MAC (Media Access Control) is a way to manage how devices share a communication channel (like a network cable or wireless frequency). It decides who talks when so data doesn’t get mixed up. 
 ##### Three ways devices share the network: 
 1. Aloha 
-    • The simplest method. 
-    • Devices send data whenever they want. 
-    • If two devices send at the same time, collision happens, and data is lost. 
-    • Devices wait a random time and try sending again. 
-    • Works well when the network is not busy. 
-2. Slotted Aloha 
-   • An improved version of Aloha. 
-    • Time is divided into slots. 
-    • Devices can only send data at the start of a time slot. 
-    • This reduces collisions because devices can’t send randomly anytime. 
-    • Better efficiency than pure Aloha. 
-3. CSMA (Carrier Sense Multiple Access) 
-    • Before sending, a device listens to the channel. 
-    • If the channel is free, it sends data. 
-    • If the channel is busy, it waits before trying. 
-    • Reduces chances of collision compared to Aloha. 
-    • Variants like CSMA/CD (Collision Detection) are used in Ethernet. 
-What is Flow Control? 
+    • The simplest method.
+    
+    • Devices send data whenever they want.
+   
+    • If two devices send at the same time, collision happens, and data is lost.
+    
+    • Devices wait a random time and try sending again.
+   
+    • Works well when the network is not busy.
+   
+3. Slotted Aloha 
+   • An improved version of Aloha.
+   
+    • Time is divided into slots.
+   
+    • Devices can only send data at the start of a time slot.
+   
+    • This reduces collisions because devices can’t send randomly anytime.
+   
+    • Better efficiency than pure Aloha.
+   
+5. CSMA (Carrier Sense Multiple Access) 
+    • Before sending, a device listens to the channel.
+   
+    • If the channel is free, it sends data.
+   
+    • If the channel is busy, it waits before trying.
+   
+    • Reduces chances of collision compared to Aloha.
+   
+    • Variants like CSMA/CD (Collision Detection) are used in Ethernet.
+   
+#### What is Flow Control? 
 • Flow Control is a way to manage the speed of data transmission between a sender and a receiver. 
+
 • It ensures the sender doesn’t send data faster than the receiver can handle. 
-• Prevents data loss caused by receiver’s buffer overflow. Common Flow Control methods: 
-Stop-and-Wait  
+
+• Prevents data loss caused by receiver’s buffer overflow. 
+##### Common Flow Control methods: 
+###### Stop-and-Wait  
 • It's a simple flow control method. 
-• The sender sends one data packet (frame) at a time. 
+
+• The sender sends one data packet (frame) at a time.
+
 • Then the sender waits for the receiver to send an acknowledgment (ACK) before sending the next packet. 
-Go Back N  
+
+###### Go Back N  
 • It’s a flow control and error control method used in data communication. 
+
 • The sender can send multiple frames (up to a window size) without waiting for ACKs for each one. 
+
 • If an error or lost frame is detected, the sender goes back and resends that frame and all the frames sent after it. 
-Selective Repeat 
+
+###### Selective Repeat 
 • It’s an advanced flow and error control protocol. 
+
 • The sender can send multiple frames (like Go-Back-N), but the receiver only asks for the specific frames that are lost or have errors. 
+
 • The receiver accepts frames out of order and buffers them until missing frames arrive. 
-What is Error Detection? 
+
+#### What is Error Detection? 
 • It’s the process of finding errors in data during transmission. 
-• Errors happen because of noise or interference in the communication channel. 
+
+• Errors happen because of noise or interference in the communication channel.
+
 • Techniques add extra bits to data to help detect if errors occurred. 
-Common Error Detection Methods: 
-1. Parity Check: 
-o Adds a single bit (parity bit) to make the number of 1’s either even or odd. 
-o If parity doesn’t match on the receiver side, an error is detected. 
-2. Checksum: 
-o Adds up data chunks and sends the sum with the data. 
-o Receiver calculates sum again and compares to detect errors. 
-3. CRC (Cyclic Redundancy Check): 
-o Uses polynomial division to create a checksum for detecting errors with high accuracy. 
-What is Error Correction? 
+
+##### Common Error Detection Methods: 
+###### 1. Parity Check:
+        o Adds a single bit (parity bit) to make the number of 1’s either even or odd. 
+        o If parity doesn’t match on the receiver side, an error is detected. 
+###### 2. Checksum:
+        o Adds up data chunks and sends the sum with the data. 
+        o Receiver calculates sum again and compares to detect errors. 
+###### 3. CRC (Cyclic Redundancy Check):
+        o Uses polynomial division to create a checksum for detecting errors with high accuracy. 
+
+#### What is Error Correction? 
 • It’s the process of fixing errors in data automatically. 
+
 • When an error is detected, the receiver can either: 
-o Ask sender to resend the data (retransmission), or 
-o Use extra bits to correct the error without needing retransmission. 
-Common Error Correction Methods: 
-1. Automatic Repeat Request (ARQ): 
-o Receiver requests retransmission if errors are detected. 
-2. Forward Error Correction (FEC): 
-o Extra bits added so the receiver can detect AND fix errors by itself. 
-#### 3. Network Layer  
-The Network Layer is the part of a computer network that decides how data travels from one 
-computer to another, even if they are on different networks. 
-It gives each device an IP address, chooses the best path for the data, and helps it reach the right 
-destination. 
-Core Functions 
-1. Logical Addressing 
-o Assigns addresses (usually IP addresses) so that each device can be uniquely identified 
-across a network. 
-2. Routing 
-o Determines optimal path for data to travel from source to destination. 
-o Uses routing tables and protocols like RIP, OSPF, BGP. 
-3. Fragmentation and Reassembly 
-o Breaks down large packets into smaller fragments suitable for transmission and 
-reassembles them at the destination. 
-4. Packet Forwarding 
-o Forwards packets from one network to another based on destination IP address 
-Key Protocols 
-IP Protocol : The Internet Protocol (IP) is a set of rules that computers use to send data to each other 
-across the internet or any network. It gives every device an address (called an IP address) so the data 
-knows where to go. 
-IP Address : IP Address stands for internet Protocol is a unique identifier assigned to each device 
-connected to network that use ip for communication . It allows to locate and communicate with each 
-other on network either local or global .  
-Types of IP Address 
-IPv4 (Internet Protocol version 4) 
+    o Ask sender to resend the data (retransmission), or 
+    o Use extra bits to correct the error without needing retransmission. 
+##### Common Error Correction Methods: 
+###### 1. Automatic Repeat Request (ARQ): 
+        o Receiver requests retransmission if errors are detected. 
+###### 2. Forward Error Correction (FEC): 
+        o Extra bits added so the receiver can detect AND fix errors by itself. 
+        
+### 3. Network Layer  
+The Network Layer is the part of a computer network that decides how data travels from one computer to another, even if they are on different networks. 
+
+It gives each device an IP address, chooses the best path for the data, and helps it reach the right destination. 
+#### Core Functions 
+###### 1. Logical Addressing 
+        o Assigns addresses (usually IP addresses) so that each device can be uniquely identified across a network. 
+###### 2. Routing 
+        o Determines optimal path for data to travel from source to destination. 
+        o Uses routing tables and protocols like RIP, OSPF, BGP. 
+###### 3. Fragmentation and Reassembly 
+        o Breaks down large packets into smaller fragments suitable for transmission and reassembles them at the destination. 
+###### 4. Packet Forwarding 
+    o Forwards packets from one network to another based on destination IP address
+    
+#### Key Protocols 
+##### IP Protocol : 
+The Internet Protocol (IP) is a set of rules that computers use to send data to each other across the internet or any network. It gives every device an address (called an IP address) so the data knows where to go. 
+##### IP Address :
+IP Address stands for internet Protocol is a unique identifier assigned to each device connected to network that use ip for communication . It allows to locate and  with each other on network either local or global .  
+##### Types of IP Address 
+<b>IPv4 (Internet Protocol version 4) </b>
 • It it composed of four group of number  , each ranging from 0 to 255 , separated by period(.)  
+
 • It is of 32 bits  
+
 • Can support about 4.3 billion unique addresses. 
-IPv6 (Internet Protocol version 6) 
+
+<b>IPv6 (Internet Protocol version 6) </b>
 • This is much long , consisting 8 group of four hexadecimal digit sepreated by colns(:)  
+
 • It is of 128 bits  
+
 • Can support 340 undecillion addresses (that’s 340 followed by 36 zeros!) 
-1. Public IP Address : A Public IP address is assigned by your Internet Service Provider (ISP) and is 
-visible on the internet. 
-2. Private IP Address : A Private IP address is used inside a home or office network. It’s not visible on 
-the internet. 
-3. Static IP Address : A Static IP does not change. It is manually set or permanently assigned. 
-4. Dynamic IP Address : A Dynamic IP is automatically assigned by a DHCP server (like your router) 
-and can change over time. 
-Classes of IP Address 
-IP addresses are divided into different classes (A, B, C, D, E) based on the range of their first octet. 
-Each class serves different purposes in networks. 
-Class First Octet 
-Range 
-A 
-B 
-1 – 126 
-Default Subnet 
-Mask 
-255.0.0.0 ( /8 ) 
-128 – 191 255.255.0.0 ( /16 
-) 
-C 192 – 223 255.255.255.0 ( 
-/24 ) 
-Number of 
-Networks 
-128 (2^7) 
-Number of Hosts 
-per Network 
-16,777,214 (2^24 - 
-2) 
-16,384 (2^14) 65,534 (2^16 - 2) 
-2,097,152 
-(2^21) 
-D 224 – 239 Not applicable Not 
-applicable 
-E 
-240 – 255 Not applicable Not 
-applicable 
-254 (2^8 - 2) 
-Not applicable 
-Not applicable 
-Classless Addressing (CIDR - Classless Inter-Domain Routing) 
-Usage 
-Very large networks (e.g., big 
-ISPs) 
-Medium-sized networks 
-(universities, large 
-businesses) 
-Small networks (small offices, 
-home networks) 
-Multicast groups 
-Experimental, research use 
-only 
+
+<b>1. Public IP Address :</b> A Public IP address is assigned by your Internet Service Provider (ISP) and is visible on the internet. 
+
+<b>2. Private IP Address :</b> A Private IP address is used inside a home or office network. It’s not visible on the internet. 
+
+<b>3. Static IP Address :</b> A Static IP does not change. It is manually set or permanently assigned. 
+
+<b>4. Dynamic IP Address :</b> A Dynamic IP is automatically assigned by a DHCP server (like your router) and can change over time. 
+
+##### Classes of IP Address 
+IP addresses are divided into different classes (A, B, C, D, E) based on the range of their first octet. Each class serves different purposes in networks. 
+![Screenshot 2025-05-30 233900](https://github.com/user-attachments/assets/e425ca60-98fa-4a1d-8cb2-751c322bee4f)
+
 Classless addressing is a method of allocating IP addresses and routing IP packets without being 
 restricted by the traditional class-based system (Class A, B, C). It was introduced to improve the 
 efficiency of IP address allocation and to slow the exhaustion of IPv4 addresses. 
