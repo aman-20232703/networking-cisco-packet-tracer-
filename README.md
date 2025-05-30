@@ -638,7 +638,8 @@ The Internet Protocol (IP) is a set of rules that computers use to send data to 
 IP Address stands for internet Protocol is a unique identifier assigned to each device connected to network that use ip for communication . It allows to locate and  with each other on network either local or global .  
 ##### Types of IP Address 
 <b>IPv4 (Internet Protocol version 4) </b>
-• It it composed of four group of number  , each ranging from 0 to 255 , separated by period(.)  
+
+• It it composed of four group of number, each ranging from 0 to 255 , separated by period(.)  
 
 • It is of 32 bits  
 
@@ -663,78 +664,63 @@ IP Address stands for internet Protocol is a unique identifier assigned to each 
 IP addresses are divided into different classes (A, B, C, D, E) based on the range of their first octet. Each class serves different purposes in networks. 
 ![Screenshot 2025-05-30 233900](https://github.com/user-attachments/assets/e425ca60-98fa-4a1d-8cb2-751c322bee4f)
 
-Classless addressing is a method of allocating IP addresses and routing IP packets without being 
-restricted by the traditional class-based system (Class A, B, C). It was introduced to improve the 
-efficiency of IP address allocation and to slow the exhaustion of IPv4 addresses. 
-Key points: 
-1. Flexible IP Allocation: Instead of fixed subnet masks defined by classes (like 255.0.0.0 for 
-Class A), CIDR allows variable-length subnet masks (VLSM). This means networks can be 
-divided into smaller or larger blocks depending on need. 
+##### Classless addressing(CIDR- Classless Addressing Inter-Domain Routing)
+Classless addressing is a method of allocating IP addresses and routing IP packets without being restricted by the traditional class-based system (Class A, B, C). It was introduced to improve the efficiency of IP address allocation and to slow the exhaustion of IPv4 addresses. 
+
+##### Key points: 
+1. Flexible IP Allocation: Instead of fixed subnet masks defined by classes (like 255.0.0.0 for Class A), CIDR allows variable-length subnet masks (VLSM). This means networks can be divided into smaller or larger blocks depending on need.
+
 2. Notation: CIDR uses a format like 192.168.10.0/22, where /22 indicates the number of bits 
-used for the network portion of the address. This allows precise control over how many IP 
-addresses are included in the subnet. 
-3. Efficient Use of IPs: By allowing subnets of any size, CIDR reduces waste of IP addresses that 
-happened in the classful system where networks often had too many or too few addresses. 
+used for the network portion of the address. This allows precise control over how many IP addresses are included in the subnet. 
+
+3. Efficient Use of IPs: By allowing subnets of any size, CIDR reduces waste of IP addresses that happened in the classful system where networks often had too many or too few addresses. 
+
 4. Routing Simplification: CIDR enables route aggregation (supernetting), where multiple IP 
-ranges can be summarized into a single routing table entry, reducing the size of routing tables 
-and improving routing efficiency. 
-5. Widely Used: CIDR is now the standard for IPv4 addressing on the internet, replacing classful 
-addressing completely. 
-2. ARP( Address Resolution Protocol)  
+ranges can be summarized into a single routing table entry, reducing the size of routing tables and improving routing efficiency. 
+
+5. Widely Used: CIDR is now the standard for IPv4 addressing on the internet, replacing classful addressing completely.
+   
+##### 2. ARP( Address Resolution Protocol)  
 ARP is a protocol used to find the MAC address of a device when you already know its IP address. 
-3. Reverse Address Resolution Protocol (RARP) 
-RARP is a network protocol used to find the IP address of a device when its MAC (hardware) address 
-is already known. It is essentially the reverse of ARP. 
-4. Internet Control Message Protocol (ICMP) 
-ICMP is a network layer protocol used by network devices, like routers and hosts, to send error 
-messages and operational information indicating success or failure in communication. ICMP helps in 
-diagnosing network communication problems and reporting errors such as unreachable destinations, 
-packet loss, or time exceeded. 
-5. Internet Group Management Protocol (IGMP) 
-IGMP is a communication protocol used by IPv4 hosts and adjacent routers to manage membership 
-of multicast groups on a local network. 
-What is Routing? 
-Routing is the method used to determine how data packets travel from the source device to the 
-destination device across a network. 
-Types of Routing: 
-Type 
-Static Routing 
-Description 
-Manually configured routes; good for small, simple networks. 
-Dynamic Routing Routes are automatically updated based on network changes using protocols. 
-Default Routing A path used when no specific route is found in the routing table. 
-RIP (Routing Information Protocol) 
-RIP is one of the oldest dynamic routing protocols used in computer networks to help routers 
-exchange routing information. 
-#### 4 . Transport Layer  
-The Transport Layer is responsible for end-to-end communication and data transfer between host 
-systems. It ensures that data is delivered reliably, in order, and without errors. 
-Main Functions of Transport Layer: 
-Function 
-Segmentation & 
-Reassembly 
-End-to-End 
-Communication 
-Error Detection & 
-Correction 
-Flow Control 
-Congestion Control 
-Multiplexing 
-Description 
-Breaks large data into smaller segments at sender; reassembles them 
-at receiver. 
-Ensures complete data transfer from source to destination. 
-Identifies and corrects transmission errors. 
-Prevents sender from overwhelming the receiver with too much data. 
-Helps avoid network overload by adjusting the data flow rate. 
-Allows multiple applications to use the network simultaneously. 
-Segmentation (in Transport Layer) 
-Segmentation is the process of breaking down large chunks of application data into smaller, 
-manageable pieces called segments before transmission over a network. 
-TCP (Transmission Control Protocol) 
-TCP is a connection-oriented protocol used at the Transport Layer of the OSI and TCP/IP models. It 
-provides reliable, ordered, and error-checked delivery of data between applications. 
-Key Features of TCP: 
+
+##### 3. Reverse Address Resolution Protocol (RARP) 
+RARP is a network protocol used to find the IP address of a device when its MAC (hardware) address is already known. It is essentially the reverse of ARP. 
+##### 4. Internet Control Message Protocol (ICMP) 
+ICMP is a network layer protocol used by network devices, like routers and hosts, to send error messages and operational information indicating success or failure in communication. ICMP helps in diagnosing network communication problems and reporting errors such as unreachable destinations, packet loss, or time exceeded. 
+##### 5. Internet Group Management Protocol (IGMP) 
+IGMP is a communication protocol used by IPv4 hosts and adjacent routers to manage membership of multicast groups on a local network. 
+
+#### What is Routing? 
+Routing is the method used to determine how data packets travel from the source device to the destination device across a network. 
+
+#### Types of Routing: 
+ 
+#### RIP (Routing Information Protocol) 
+RIP is one of the oldest dynamic routing protocols used in computer networks to help routers exchange routing information. 
+
+### 4 . Transport Layer  
+The Transport Layer is responsible for end-to-end communication and data transfer between host systems. It ensures that data is delivered reliably, in order, and without errors.
+
+#### Main Functions of Transport Layer: 
+Function                                       Description 
+
+<b>Segmentation & Reassembly</b>  Breaks large data into smaller segments at sender; reassembles them at receiver. 
+
+<b>End-to-End Communication</b>  Ensures complete data transfer from source to destination. 
+
+<b>Error Detection & Correction</b> Identifies and corrects transmission errors. 
+<b>Flow Control</b>  Prevents sender from overwhelming the receiver with too much data. 
+
+<b>Congestion Control</b>    Helps avoid network overload by adjusting the data flow rate. 
+
+<b>Multiplexing Allows</b>    multiple applications to use the network simultaneously. 
+
+#### Segmentation (in Transport Layer) 
+Segmentation is the process of breaking down large chunks of application data into smaller manageable pieces called segments before transmission over a network. 
+
+##### TCP (Transmission Control Protocol) 
+TCP is a connection-oriented protocol used at the Transport Layer of the OSI and TCP/IP models. It provides reliable, ordered, and error-checked delivery of data between applications. 
+##### Key Features of TCP: 
 Feature 
 Description 
 Connection-Oriented Establishes a connection (3-way handshake) before data transfer begins. 
