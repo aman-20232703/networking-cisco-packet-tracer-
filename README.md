@@ -596,25 +596,25 @@ MAC (Media Access Control) is a way to manage how devices share a communication 
 
 ##### Common Error Detection Methods: 
 ###### 1. Parity Check:
-        o Adds a single bit (parity bit) to make the number of 1’s either even or odd. 
-        o If parity doesn’t match on the receiver side, an error is detected. 
+        Adds a single bit (parity bit) to make the number of 1’s either even or odd. 
+        If parity doesn’t match on the receiver side, an error is detected. 
 ###### 2. Checksum:
-        o Adds up data chunks and sends the sum with the data. 
-        o Receiver calculates sum again and compares to detect errors. 
+        Adds up data chunks and sends the sum with the data. 
+        Receiver calculates sum again and compares to detect errors. 
 ###### 3. CRC (Cyclic Redundancy Check):
-        o Uses polynomial division to create a checksum for detecting errors with high accuracy. 
+        Uses polynomial division to create a checksum for detecting errors with high accuracy. 
 
 #### What is Error Correction? 
 • It’s the process of fixing errors in data automatically. 
 
 • When an error is detected, the receiver can either: 
-    o Ask sender to resend the data (retransmission), or 
-    o Use extra bits to correct the error without needing retransmission. 
+    Ask sender to resend the data (retransmission), or 
+    Use extra bits to correct the error without needing retransmission. 
 ##### Common Error Correction Methods: 
 ###### 1. Automatic Repeat Request (ARQ): 
-        o Receiver requests retransmission if errors are detected. 
+        Receiver requests retransmission if errors are detected. 
 ###### 2. Forward Error Correction (FEC): 
-        o Extra bits added so the receiver can detect AND fix errors by itself. 
+        Extra bits added so the receiver can detect AND fix errors by itself. 
         
 ### 3. Network Layer  
 The Network Layer is the part of a computer network that decides how data travels from one computer to another, even if they are on different networks. 
@@ -718,60 +718,52 @@ Function                                       Description
 #### Segmentation (in Transport Layer) 
 Segmentation is the process of breaking down large chunks of application data into smaller manageable pieces called segments before transmission over a network. 
 
-##### TCP (Transmission Control Protocol) 
+#### TCP (Transmission Control Protocol) 
 TCP is a connection-oriented protocol used at the Transport Layer of the OSI and TCP/IP models. It provides reliable, ordered, and error-checked delivery of data between applications. 
 ##### Key Features of TCP: 
-Feature 
-Description 
-Connection-Oriented Establishes a connection (3-way handshake) before data transfer begins. 
-Reliable Delivery 
-Guarantees that data arrives without errors and in the correct order. 
-Error Detection 
-Flow Control 
-Congestion Control 
-Sequencing 
-Uses checksums to detect errors in data. 
-Uses window size to avoid overwhelming the receiver. 
-Prevents network congestion using algorithms like slow start. 
-Each segment has a sequence number to ensure correct ordering. 
-Acknowledgment (ACK) Receiver confirms successful receipt of data. 
-UDP (User Datagram Protocol) 
-UDP is a connectionless, lightweight transport layer protocol. It is designed for fast data 
-transmission with low overhead, but it does not guarantee delivery, order, or error correction. 
-Key Features of UDP: 
-Feature 
-Connectionless 
-Description 
-No connection setup; sends data without handshakes. 
-Unreliable Delivery Data may be lost or arrive out of order. 
-No Acknowledgment Receiver doesn’t send an ACK back to the sender. 
-No Flow Control 
-Can cause data overflow if receiver can't handle the speed. 
-Low Overhead 
-Faster than TCP, ideal for time-sensitive applications. 
-UDP vs TCP Comparison: 
-Feature 
-UDP 
-Connection Connectionless 
-Reliability No guarantee 
-Speed 
-TCP 
-Connection-oriented (3-way handshake) 
-Ensures delivery and order 
-Faster (no retransmission/ack) Slower due to reliability mechanisms 
-Use Cases Streaming, VoIP, Gaming, DNS Browsing, Email, File Transfer 
-Header Size 8 bytes 
-20 bytes (minimum) 
-Multiplexing and Demultiplexing 
+<b>Feature</b>                                           <b>Description</b>
+Connection-Oriented    Establishes a connection (3-way handshake) before data transfer begins. 
+
+<b>Reliable Delivery<b>  Guarantees that data arrives without errors and in the correct order. 
+
+<b>Error Detection</b>       Uses checksums to detect errors in data. 
+
+<b>Flow Control</b>          Uses window size to avoid overwhelming the receiver. 
+
+<b>Congestion Control</b>    Prevents network congestion using algorithms like slow start. 
+
+<b>Sequencing </b>           Each segment has a sequence number to ensure correct ordering. 
+
+<b>Acknowledgment (ACK)</b>   Receiver confirms successful receipt of data. 
+
+#### UDP (User Datagram Protocol) 
+UDP is a connectionless, lightweight transport layer protocol. It is designed for fast data transmission with low overhead, but it does not guarantee delivery, order, or error correction. 
+##### Key Features of UDP: 
+<b>Feature </b>                            <b>Description</b>  
+<b>Connectionless<b>          <b>No connection setup; sends data without handshakes.<b>
+
+<b>Unreliable Delivery<b>       Data may be lost or arrive out of order. 
+
+<b>No Acknowledgment<b>         Receiver doesn’t send an ACK back to the sender.
+
+<b>No Flow Control <b>          Can cause data overflow if receiver can't handle the speed. 
+
+<b>Low Overhead<b>              Faster than TCP, ideal for time-sensitive applications. 
+
+#### UDP vs TCP Comparison: 
+![Screenshot 2025-05-31 132659](https://github.com/user-attachments/assets/27033ef5-1e5f-409b-aea3-b8e18e6e9c90)
+
+#### Multiplexing and Demultiplexing 
 Multiplexing is the process of combining multiple data streams from different applications or 
-sources into a single stream to be sent over a network. 
+sources into a single stream to be sent over a network.
+
 Demultiplexing is the process of separating a single incoming stream into multiple streams and 
 delivering each to the correct application. 
+
 #### 5. Session Layer  
-The Session Layer is responsible for establishing, managing, and terminating sessions between two 
-communicating devices or applications. It ensures that communication is properly organized and 
-synchronized. 
-Main Functions of the Session Layer: 
+The Session Layer is responsible for establishing, managing, and terminating sessions between two communicating devices or applications. It ensures that communication is properly organized and synchronized. 
+
+##### Main Functions of the Session Layer: 
 Function 
 Session 
 Establishment 
