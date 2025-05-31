@@ -702,7 +702,7 @@ RIP is one of the oldest dynamic routing protocols used in computer networks to 
 The Transport Layer is responsible for end-to-end communication and data transfer between host systems. It ensures that data is delivered reliably, in order, and without errors.
 
 #### Main Functions of Transport Layer: 
-Function                                       Description 
+Function           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Description 
 
 <b>Segmentation & Reassembly</b>  Breaks large data into smaller segments at sender; reassembles them at receiver. 
 
@@ -721,10 +721,11 @@ Segmentation is the process of breaking down large chunks of application data in
 #### TCP (Transmission Control Protocol) 
 TCP is a connection-oriented protocol used at the Transport Layer of the OSI and TCP/IP models. It provides reliable, ordered, and error-checked delivery of data between applications. 
 ##### Key Features of TCP: 
-<b>Feature</b>   &nbsp;&nbsp;&nbsp;      <b>Description</b>
+<b>Feature</b>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            <b>Description</b>
+
 <b>Connection-Oriented</b>    Establishes a connection (3-way handshake) before data transfer begins. 
 
-<b>Reliable Delivery<b>  Guarantees that data arrives without errors and in the correct order. 
+<b>Reliable Delivery</b>  Guarantees that data arrives without errors and in the correct order. 
 
 <b>Error Detection</b>       Uses checksums to detect errors in data. 
 
@@ -760,33 +761,38 @@ sources into a single stream to be sent over a network.
 Demultiplexing is the process of separating a single incoming stream into multiple streams and 
 delivering each to the correct application. 
 
-#### 5. Session Layer  
+### 5. Session Layer  
 The Session Layer is responsible for establishing, managing, and terminating sessions between two communicating devices or applications. It ensures that communication is properly organized and synchronized. 
 
-##### Main Functions of the Session Layer: 
-Function    &nbsp;&nbsp;&nbsp;     Description
-Session Establishment      Initiates a communication session between devices. 
+#### Main Functions of the Session Layer: 
+<b>Function</b>    &nbsp;&nbsp;&nbsp;     <b>Description</b>
+
+<b>Session Establishment</b>      Initiates a communication session between devices. 
  
-Session Maintenance         Keeps the session active during data transfer.
+<b>Session Maintenance</b>        Keeps the session active during data transfer.
 
-Session Termination         Closes the session when communication ends. 
+<b>Session Termination/<b>         Closes the session when communication ends. 
 
-Synchronization             Inserts checkpoints (sync points) in data streams to resume from there in case of failure. 
+<b>Synchronization </b>            Inserts checkpoints (sync points) in data streams to resume from there in case of failure. 
  
-Dialog Control       Manages which side communicates at what time (half-duplex or fullduplex).
+<b>Dialog Control</b>       Manages which side communicates at what time (half-duplex or fullduplex).
 
-##### Examples of Session Layer Protocols: 
-Protocol     &nbsp;&nbsp;&nbsp;                    Use Case 
-RPC (Remote Procedure Call)            Allows programs to execute code on a remote system. 
-NetBIOS                                Supports communication in LANs. 
-PPTP                                   used for VPN sessions
-SMPP                                   Used in SMS message exchange systems. 
+#### Examples of Session Layer Protocols: 
+<b>Protocol</b>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         <b>Use Case</b> 
 
-#### 6. Presentation Layer  
+<b>RPC (Remote Procedure Call) </b>           Allows programs to execute code on a remote system. 
+<b>NetBIOS</b>                              Supports communication in LANs. 
+
+<b>PPTP</b>                                 used for VPN sessions
+
+<b>SMPP</b>                                  Used in SMS message exchange systems. 
+
+### 6. Presentation Layer  
 The Presentation Layer is like the translator and formatter of the OSI model. Its main job is to ensure that data sent from one system can be understood by another — regardless of differences in data formats, encoding, or encryption.
 
-##### Main Functions of the Presentation Layer: 
-<b>Function</b>       &nbsp;&nbsp;&nbsp;             <b> Description <b>
+#### Main Functions of the Presentation Layer: 
+<b>Function</b>       &nbsp;&nbsp;&nbsp;             <b> Description </b>
+
 <b>Translation</b>             Converts data between different formats (e.g., EBCDIC ↔ ASCII). 
 
 <b>Encryption/Decryption</b>    Secures data before transmission and decrypts it at the receiver's end. 
@@ -794,8 +800,9 @@ The Presentation Layer is like the translator and formatter of the OSI model. It
 <b>Compression/Decompression</b>    Reduces data size for faster transmission and restores it on the other side. 
 <b>Data Formatting</b>    Ensures data is in a readable and usable format (e.g., JPEG, MP4, PDF). 
 
-##### Examples of Presentation Layer Protocols/Technologies: 
-<b>Technology</b>      &nbsp;&nbsp;&nbsp;          <b>Role<b>
+#### Examples of Presentation Layer Protocols/Technologies: 
+<b>Technology</b>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           <b>Role<b>
+
 <b>SSL/TLS</b>               Encrypts/decrypts web traffic (used in HTTPS)
 
 <b>JPEG, MP3, MP4</b>        Format multimedia data for transmission 
@@ -806,85 +813,27 @@ The Presentation Layer is like the translator and formatter of the OSI model. It
 
 <b>MIME </b>                 Used for formatting email data 
 
-#### 7. Application layer  
-The Application Layer is the topmost layer of the OSI model. It directly interacts with the end-user 
-and provides network services to applications (like web browsers, email clients, etc.). 
-Main Functions of the Application Layer: 
-Function 
-Description 
-User Interface Access Enables user interaction with network services (e.g., via browser or app). 
-Network Services 
-Provides services such as email, file transfer, remote access, etc. 
-Resource Sharing 
-Data Presentation 
-Supports data exchange, printing, file sharing over a network. 
-Sends requests down the OSI stack for formatting, encryption, etc. 
-Examples of Application Layer Protocols: 
+### 7. Application layer  
+The Application Layer is the topmost layer of the OSI model. It directly interacts with the end-user and provides network services to applications (like web browsers, email clients, etc.). 
+
+#### Main Functions of the Application Layer: 
+<b>Function</b>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          <b>Description</b>
+
+<b>User Interface Access/<b>    Enables user interaction with network services (e.g., via browser or app). 
+<b>Network Services</b>         Provides services such as email, file transfer, remote access, etc.
+
+<b>Resource Sharing</b>         Supports data exchange, printing, file sharing over a network. 
+
+<b>Data Presentation</b>        Sends requests down the OSI stack for formatting, encryption, etc. 
+
+#### Examples of Application Layer Protocols: 
 Protocol 
 HTTP/HTTPS 
 FTP 
 SMTP 
 POP3/IMAP 
-DNS 
+DNS
 Telnet/SSH 
 SNMP 
-Unicast 
-Term 
-Multicast 
-Broadcast 
-Multicast Group 
-Broadcast Domain 
-IP Address 
-Broadcast Address 
-One-to-one communication where data is sent from a 
-single sender to a single receiver. 
-One-to-many communication where data is sent from 
-one sender to multiple receivers who have joined a 
-specific multicast group. 
-One-to-all communication where data is sent from 
-one sender to all devices in a network segment. 
-A set of hosts that are interested in receiving a 
-particular multicast transmission. Hosts explicitly 
-join this group. 
-A logical division of a network where any broadcast 
-sent is received by all devices in that segment. 
-A unique numerical identifier assigned to each device 
-on a network. 
-The special IP address used to send a packet to all 
-devices in the broadcast domain (e.g., 
-255.255.255.255 in IPv4). 
-Use Case 
-Web browsing (used in 
-Chrome, Firefox, etc.) 
-File transfer 
-Sending emails 
-Receiving emails 
-Domain name 
-resolution (e.g., 
-google.com → IP) 
-Remote login/access to 
-another computer 
-Network management 
-and monitoring 
-Meaning 
-Protocol 
-Use Case 
-Multicast Address 
-Network Segment 
-Packet 
-Routing 
-IGMP (Internet Group 
-Management Protocol) 
-A special IP address (in IPv4, from 224.0.0.0 to 
-239.255.255.255) used to identify multicast groups. 
-A portion of a network where devices can directly 
-communicate at the data link layer without a router. 
-A formatted unit of data carried by a network. 
-The process of selecting paths in a network along 
-which to send network traffic. 
-Protocol used by hosts and adjacent routers to 
-establish multicast group memberships. 
- 
- 
- 
- 
+
+![Screenshot 2025-05-31 135549](https://github.com/user-attachments/assets/f5deb9ee-c6a6-4be8-aba2-009c92cf32dd)
