@@ -741,13 +741,14 @@ TCP is a connection-oriented protocol used at the Transport Layer of the OSI and
 UDP is a connectionless, lightweight transport layer protocol. It is designed for fast data transmission with low overhead, but it does not guarantee delivery, order, or error correction. 
 ##### Key Features of UDP: 
 <b>Feature </b>       &nbsp;&nbsp;&nbsp;          <b>Description</b>  
-<b>Connectionless</b>          <b>No connection setup; sends data without handshakes.<b>
+
+<b>Connectionless</b>             No connection setup; sends data without handshakes.
 
 <b>Unreliable Delivery</b>       Data may be lost or arrive out of order. 
 
 <b>No Acknowledgment</b>         Receiver doesn’t send an ACK back to the sender.
 
-<b>No Flow Control /<b>          Can cause data overflow if receiver can't handle the speed. 
+<b>No Flow Control </b>          Can cause data overflow if receiver can't handle the speed. 
 
 <b>Low Overhead</b>              Faster than TCP, ideal for time-sensitive applications. 
 
