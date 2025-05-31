@@ -1,4 +1,4 @@
-# COMPUTER NETWORKING
+![Screenshot 2025-05-31 132659](https://github.com/user-attachments/assets/91a8cc3c-48ce-462f-b5f0-bf100339ec03)# COMPUTER NETWORKING
 
 # What is Data Communication? 
 Data Communication refers to transmission of data from one devices to another devices Through Transmission medium (it can be either wired or wireless) is called Data Communication or exchange information efficiently and accurately across distances, whether between computers,servers, sensors, or other devices. 
@@ -721,8 +721,8 @@ Segmentation is the process of breaking down large chunks of application data in
 #### TCP (Transmission Control Protocol) 
 TCP is a connection-oriented protocol used at the Transport Layer of the OSI and TCP/IP models. It provides reliable, ordered, and error-checked delivery of data between applications. 
 ##### Key Features of TCP: 
-<b>Feature</b>                                           <b>Description</b>
-Connection-Oriented    Establishes a connection (3-way handshake) before data transfer begins. 
+<b>Feature</b>   &nbsp;&nbsp;&nbsp;      <b>Description</b>
+<b>Connection-Oriented</b>    Establishes a connection (3-way handshake) before data transfer begins. 
 
 <b>Reliable Delivery<b>  Guarantees that data arrives without errors and in the correct order. 
 
@@ -739,16 +739,16 @@ Connection-Oriented    Establishes a connection (3-way handshake) before data tr
 #### UDP (User Datagram Protocol) 
 UDP is a connectionless, lightweight transport layer protocol. It is designed for fast data transmission with low overhead, but it does not guarantee delivery, order, or error correction. 
 ##### Key Features of UDP: 
-<b>Feature </b>                            <b>Description</b>  
-<b>Connectionless<b>          <b>No connection setup; sends data without handshakes.<b>
+<b>Feature </b>       &nbsp;&nbsp;&nbsp;          <b>Description</b>  
+<b>Connectionless</b>          <b>No connection setup; sends data without handshakes.<b>
 
-<b>Unreliable Delivery<b>       Data may be lost or arrive out of order. 
+<b>Unreliable Delivery</b>       Data may be lost or arrive out of order. 
 
-<b>No Acknowledgment<b>         Receiver doesn’t send an ACK back to the sender.
+<b>No Acknowledgment</b>         Receiver doesn’t send an ACK back to the sender.
 
-<b>No Flow Control <b>          Can cause data overflow if receiver can't handle the speed. 
+<b>No Flow Control /<b>          Can cause data overflow if receiver can't handle the speed. 
 
-<b>Low Overhead<b>              Faster than TCP, ideal for time-sensitive applications. 
+<b>Low Overhead</b>              Faster than TCP, ideal for time-sensitive applications. 
 
 #### UDP vs TCP Comparison: 
 ![Screenshot 2025-05-31 132659](https://github.com/user-attachments/assets/27033ef5-1e5f-409b-aea3-b8e18e6e9c90)
@@ -764,58 +764,48 @@ delivering each to the correct application.
 The Session Layer is responsible for establishing, managing, and terminating sessions between two communicating devices or applications. It ensures that communication is properly organized and synchronized. 
 
 ##### Main Functions of the Session Layer: 
-Function 
-Session 
-Establishment 
-Description 
-Initiates a communication session between devices. 
-Session Maintenance Keeps the session active during data transfer. 
-Session Termination Closes the session when communication ends. 
-Synchronization 
-Inserts checkpoints (sync points) in data streams to resume from there in 
-case of failure. 
-Function 
-Description 
-Dialog Control 
-Manages which side communicates at what time (half-duplex or full-duplex). 
-Examples of Session Layer Protocols: 
-Protocol 
-Use Case 
-RPC (Remote Procedure Call) Allows programs to execute code on a remote system. 
-NetBIOS 
-Supports communication in LANs. 
-PPTP 
-SMPP 
+Function    &nbsp;&nbsp;&nbsp;     Description
+Session Establishment      Initiates a communication session between devices. 
+ 
+Session Maintenance         Keeps the session active during data transfer.
+
+Session Termination         Closes the session when communication ends. 
+
+Synchronization             Inserts checkpoints (sync points) in data streams to resume from there in case of failure. 
+ 
+Dialog Control       Manages which side communicates at what time (half-duplex or fullduplex).
+
+##### Examples of Session Layer Protocols: 
+Protocol     &nbsp;&nbsp;&nbsp;                    Use Case 
+RPC (Remote Procedure Call)            Allows programs to execute code on a remote system. 
+NetBIOS                                Supports communication in LANs. 
+PPTP                                   used for VPN sessions
+SMPP                                   Used in SMS message exchange systems. 
+
 #### 6. Presentation Layer  
-Used for VPN sessions. 
-Used in SMS message exchange systems. 
-The Presentation Layer is like the translator and formatter of the OSI model. Its main job is to ensure 
-that data sent from one system can be understood by another — regardless of differences in data 
-formats, encoding, or encryption. 
-Main Functions of the Presentation Layer: 
-Function 
-Translation 
-Encryption/Decryption 
-Description 
-Converts data between different formats (e.g., EBCDIC ↔ ASCII). 
-Secures data before transmission and decrypts it at the receiver's 
-end. 
-Compression/Decompression Reduces data size for faster transmission and restores it on the 
-other side. 
-Data Formatting 
-Ensures data is in a readable and usable format (e.g., JPEG, MP4, 
-PDF). 
-Examples of Presentation Layer Protocols/Technologies: 
-Technology 
-SSL/TLS 
-Role 
-Encrypts/decrypts web traffic (used in HTTPS) 
-JPEG, MP3, MP4 Format multimedia data for transmission 
-GIF, PNG 
-Image formatting 
-ASCII, EBCDIC Text encoding formats 
-MIME 
-Used for formatting email data 
+The Presentation Layer is like the translator and formatter of the OSI model. Its main job is to ensure that data sent from one system can be understood by another — regardless of differences in data formats, encoding, or encryption.
+
+##### Main Functions of the Presentation Layer: 
+<b>Function</b>       &nbsp;&nbsp;&nbsp;             <b> Description <b>
+<b>Translation</b>             Converts data between different formats (e.g., EBCDIC ↔ ASCII). 
+
+<b>Encryption/Decryption</b>    Secures data before transmission and decrypts it at the receiver's end. 
+
+<b>Compression/Decompression</b>    Reduces data size for faster transmission and restores it on the other side. 
+<b>Data Formatting</b>    Ensures data is in a readable and usable format (e.g., JPEG, MP4, PDF). 
+
+##### Examples of Presentation Layer Protocols/Technologies: 
+<b>Technology</b>      &nbsp;&nbsp;&nbsp;          <b>Role<b>
+<b>SSL/TLS</b>               Encrypts/decrypts web traffic (used in HTTPS)
+
+<b>JPEG, MP3, MP4</b>        Format multimedia data for transmission 
+
+<b>GIF, PNG </b>             Image formatting 
+
+<b>ASCII, EBCDIC</b>         Text encoding formats 
+
+<b>MIME </b>                 Used for formatting email data 
+
 #### 7. Application layer  
 The Application Layer is the topmost layer of the OSI model. It directly interacts with the end-user 
 and provides network services to applications (like web browsers, email clients, etc.). 
