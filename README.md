@@ -802,7 +802,7 @@ The Presentation Layer is like the translator and formatter of the OSI model. It
 <b>Data Formatting</b>    Ensures data is in a readable and usable format (e.g., JPEG, MP4, PDF). 
 
 #### Examples of Presentation Layer Protocols/Technologies: 
-<b>Technology</b>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           <b>Role<b>
+<b>Technology</b>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           <b>Role</b>
 
 <b>SSL/TLS</b>               Encrypts/decrypts web traffic (used in HTTPS)
 
