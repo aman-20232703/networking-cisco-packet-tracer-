@@ -1,4 +1,4 @@
-![Screenshot 2025-05-31 132659](https://github.com/user-attachments/assets/91a8cc3c-48ce-462f-b5f0-bf100339ec03)# COMPUTER NETWORKING
+# COMPUTER NETWORKING
 
 # What is Data Communication? 
 Data Communication refers to transmission of data from one devices to another devices Through Transmission medium (it can be either wired or wireless) is called Data Communication or exchange information efficiently and accurately across distances, whether between computers,servers, sensors, or other devices. 
