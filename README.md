@@ -772,7 +772,7 @@ The Session Layer is responsible for establishing, managing, and terminating ses
  
 <b>Session Maintenance</b>        Keeps the session active during data transfer.
 
-<b>Session Termination/<b>         Closes the session when communication ends. 
+<b>Session Termination</b>         Closes the session when communication ends. 
 
 <b>Synchronization </b>            Inserts checkpoints (sync points) in data streams to resume from there in case of failure. 
  
