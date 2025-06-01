@@ -422,6 +422,7 @@ The Application Layer is the topmost layer of the TCP/IP model.It provides servi
 
 ### 2. Transport Layer 
 The Transport Layer is the second layer in the TCP/IP model (just below the Application Layer). It is responsible for the reliable or unreliable delivery of data between devices over a network.
+
               • Breaks data into segments before transmission.
               
               • Ensures error checking, flow control, and retransmission if needed. 
@@ -429,16 +430,24 @@ The Transport Layer is the second layer in the TCP/IP model (just below the Appl
               • Helps devices communicate reliably by managing end-to-end connections. 
 ### 3. Internet Layer 
 The Internet Layer is the third layer in the TCP/IP model, just below the Transport Layer. It is responsible for routing data packets between devices across multiple networks and ensuring they reach the correct destination. 
+
                  • Logical addressing using IP addresses. 
+                 
                  • Packet routing: Choosing the best path for data to travel. 
+                 
                  • Encapsulation and Decapsulation of data into packets. 
+                 
                  • Handling error reporting and diagnostics. 
                  
 ### 4 . Network Access Layer (also called Link Layer or Network Interface Layer) 
 The Network Access Layer is the lowest layer in the TCP/IP model. It is responsible for the physical transmission of data over the network — from one device to another on the same local network. 
+
           • Framing: Breaks data into frames for transmission. 
+          
           • MAC addressing: Uses physical (hardware) addresses to identify devices. 
+          
           • Error detection (basic, at the frame level). 
+          
           • Manages how data is placed on the network media (like cables or wireless signals). 
           
 ## 2 . OSI Model  
@@ -447,7 +456,7 @@ The OSI Model standardizes how network systems communicate and interact.
 ### 1. Physical Layer  
 The Physical Layer is the first and lowest layer of the OSI model. It is responsible for the actual physical connection between devices, including the transmission and reception of raw bits over a physical medium (like cables, radio waves, or fiber optics) 
 #### Main Purposes:
-<b>1. Bit Transmission </b>Converts data into electrical, optical, or radio signals and transmits those raw bits over the physical medium. 
+<b>1. Bit Transmission</b>Converts data into electrical, optical, or radio signals and transmits those raw bits over the physical medium. 
 
 <b>2. Defines Physical Characteristics </b>o Specifies cables, connectors, voltage levels, signal timing, and data rates. 
 
