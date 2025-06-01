@@ -53,16 +53,14 @@ Networks can be classified based on:
 ### What is Transmission Media? 
 Transmission media refers to the physical pathway or channel through which data signals travel from the sender to the receiver in a communication system. It connects the transmitting device to the receiving device and allows the transmission of information such as data, voice, or video. 
 #### 1. Guided Media (Wired) : Data signals are transmitted through a physical conductor. 
-a.) Coaxial Cable
-
-
+##### a. Coaxial Cable
 A coaxial cable is a type of cable used to carry electrical signals, like TV or internet signals. It’s designed so the signal can travel clearly without getting disturbed by outside noise. It contains a copper wire at the center, which is covered by an insulating plastic layer. Around this, there is an aluminum (or metal) shield called the coaxial wire, which protects the signal from external noise and interference. 
 
-b.) STP (Shielded Twisted Pair) / UTP (Unshielded Twisted Pair) : 
+##### b. STP (Shielded Twisted Pair) / UTP (Unshielded Twisted Pair) : 
 
 UTP cable is a type of network cable with pairs of wires twisted together It does not have extra shielding around the wires. STP cable is similar to UTP but has extra shielding (a metallic foil or braid) around the twisted wire pairs.
 
-c.) Fiber Optics 
+##### c. Fiber Optics 
 
 Fiber optics is a technology that uses very thin strands of glass or plastic fibers to transmit data as pulses of light .fiber optic cables carry information using light signals, which allows data to travel much faster and over longer distances without losing quality. 
 
@@ -414,8 +412,7 @@ The TCP/IP model is the fundamental communication protocol suite for the interne
 
 ### It consists of 4 layers, each with specific roles: 
 ### 1. Application Layer  
-The Application Layer is the topmost layer of the TCP/IP model.It provides services and interfaces for user applications to communicate over a network.
-This is the layer where network-related applications like web browsers, email clients, and file transfer programs operate. 
+The Application Layer is the topmost layer of the TCP/IP model.It provides services and interfaces for user applications to communicate over a network. This is the layer where network-related applications like web browsers, email clients, and file transfer programs operate. 
 
 ### 2. Transport Layer 
 The Transport Layer is the second layer in the TCP/IP model (just below the Application Layer). It is responsible for the reliable or unreliable delivery of data between devices over a network.
@@ -458,6 +455,7 @@ The Physical Layer is the first and lowest layer of the OSI model. It is respons
 • The Physical Layer is responsible for transmitting raw bits (0s and 1s) over the physical medium (like cables or fiber).
 
 • Ethernet defines the physical standards for cables, connectors, voltage levels, and signaling methods. 
+
 ### 2. Data Link Layer  
 The Data Link Layer is the second layer of the OSI model. It is responsible for node to node delivery of data or we can say that hope to hope delivery of data . This means it ensures data is reliably transferred between two directly connected devices (or nodes) on the same network segment. 
 #### Main Purposes:     
@@ -494,14 +492,14 @@ Frame: 01111110 0111110010 01111110  (start Flag | data | end Flag)
 Switching is the process of directing data packets between devices in a network. It decides the best path for data to travel from the source to the destination. 
 ##### Types of Switching: 
 <b>1. Circuit Switching</b> 
-    o A dedicated communication path is established between sender and receiver for the entire duration of the communication. 
-    o Example: Traditional telephone networks. 
+    A dedicated communication path is established between sender and receiver for the entire duration of the communication. 
+    Example: Traditional telephone networks. 
 <b>2. Packet Switching </b>
-    o Data is broken into small packets. Each packet is sent independently and may take different routes to reach the destination. 
-    o Example: The internet. 
+    Data is broken into small packets. Each packet is sent independently and may take different routes to reach the destination. 
+    Example: The internet. 
 <b>3. Message Switching </b>
-    o Entire messages are sent to the next switch and stored until the next path is free (storeand-forward). 
-    o Example: Early email systems. 
+    Entire messages are sent to the next switch and stored until the next path is free (storeand-forward). 
+    Example: Early email systems. 
 ##### Why is switching important? 
 • It manages traffic efficiently in a network. 
 
@@ -517,16 +515,16 @@ Spanning Tree Protocol (STP) is a network protocol used to prevent loops in a sw
 • It defines how devices format data into frames and control access to the physical medium. 
 
 • Ethernet frames include important fields like: 
-                o Destination MAC address 
-                o Source MAC address 
-                o Type/Length 
-                o Data payload 
-                o Frame Check Sequence (FCS) for error detection 
+                Destination MAC address 
+                Source MAC address 
+                Type/Length 
+                Data payload 
+                Frame Check Sequence (FCS) for error detection 
 
 ##### What is MAC? 
 MAC (Media Access Control) is a way to manage how devices share a communication channel (like a network cable or wireless frequency). It decides who talks when so data doesn’t get mixed up. 
 ##### Three ways devices share the network: 
-1. Aloha 
+<b>1. Aloha</b> 
     • The simplest method.
     
     • Devices send data whenever they want.
@@ -537,7 +535,7 @@ MAC (Media Access Control) is a way to manage how devices share a communication 
    
     • Works well when the network is not busy.
    
-3. Slotted Aloha 
+<b>2. Slotted Aloha </b>
    • An improved version of Aloha.
    
     • Time is divided into slots.
@@ -548,7 +546,7 @@ MAC (Media Access Control) is a way to manage how devices share a communication 
    
     • Better efficiency than pure Aloha.
    
-5. CSMA (Carrier Sense Multiple Access) 
+<b>3. CSMA (Carrier Sense Multiple Access) </b>
     • Before sending, a device listens to the channel.
    
     • If the channel is free, it sends data.
@@ -820,7 +818,7 @@ The Application Layer is the topmost layer of the OSI model. It directly interac
 #### Main Functions of the Application Layer: 
 <b>Function</b>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          <b>Description</b>
 
-<b>User Interface Access/<b>    Enables user interaction with network services (e.g., via browser or app). 
+<b>User Interface Access</b>    Enables user interaction with network services (e.g., via browser or app). 
 <b>Network Services</b>         Provides services such as email, file transfer, remote access, etc.
 
 <b>Resource Sharing</b>         Supports data exchange, printing, file sharing over a network. 
