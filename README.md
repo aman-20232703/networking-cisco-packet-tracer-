@@ -4,16 +4,16 @@
 Data Communication refers to transmission of data from one devices to another devices Through Transmission medium (it can be either wired or wireless) is called Data Communication or exchange information efficiently and accurately across distances, whether between computers,servers, sensors, or other devices. 
 
 ## Key Components of Data Communication: 
-##### 1. Sender: The device that sends the data (e.g., computer, smartphone). 
-##### 2. Receiver: The device that receives the data. 
-##### 3. Message: The actual data (text, audio, video, etc.). 
-##### 4. Transmission Medium: The physical path (like cables or air) through which the message travels. 
-##### 5. Protocol: A set of rules that govern the communication (e.g., TCP/IP). 
+<b>1. Sender:</b> The device that sends the data (e.g., computer, smartphone). 
+<b>2. Receiver:</b> The device that receives the data. 
+<b>3. Message:</b> The actual data (text, audio, video, etc.). 
+<b>4. Transmission Medium:</b> The physical path (like cables or air) through which the message travels. 
+<b>5. Protocol:</b> A set of rules that govern the communication (e.g., TCP/IP). 
 
 ## Types of Data Communication: 
-##### 1. Simplex: Data flows in one direction only (e.g., keyboard to computer). 
-##### 2. Half-Duplex: Data flows in both directions, but only one direction at a time (e.g., walkie-talkie). 
-##### 3. Full-Duplex: Data flows in both directions simultaneously (e.g., phone calls). 
+<b>1. Simplex</b>: Data flows in one direction only (e.g., keyboard to computer). 
+<b>2. Half-Duplex:</b> Data flows in both directions, but only one direction at a time (e.g., walkie-talkie). 
+<b>3. Full-Duplex:</b> Data flows in both directions simultaneously (e.g., phone calls). 
 
 # What is a Network? 
 A Network is system in which two or more devices are connected and share their resources and exchange of data. These devices connect through either wired (like Ethernet cables) or wireless (like Wi-Fi or Bluetooth) communication channels. 
