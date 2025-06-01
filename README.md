@@ -5,14 +5,20 @@ Data Communication refers to transmission of data from one devices to another de
 
 ## Key Components of Data Communication: 
 <b>1. Sender:</b> The device that sends the data (e.g., computer, smartphone). 
+
 <b>2. Receiver:</b> The device that receives the data. 
+
 <b>3. Message:</b> The actual data (text, audio, video, etc.). 
+
 <b>4. Transmission Medium:</b> The physical path (like cables or air) through which the message travels. 
+
 <b>5. Protocol:</b> A set of rules that govern the communication (e.g., TCP/IP). 
 
 ## Types of Data Communication: 
 <b>1. Simplex</b>: Data flows in one direction only (e.g., keyboard to computer). 
-<b>2. Half-Duplex:</b> Data flows in both directions, but only one direction at a time (e.g., walkie-talkie). 
+
+<b>2. Half-Duplex:</b> Data flows in both directions, but only one direction at a time (e.g., walkie-talkie).
+
 <b>3. Full-Duplex:</b> Data flows in both directions simultaneously (e.g., phone calls). 
 
 # What is a Network? 
