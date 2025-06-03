@@ -1,3 +1,40 @@
+The content is organized into **7 major parts**, each covering a specific layer or theme in networking:
+
+### Part 1: Overview
+- Data communication fundamentals
+- Types of networks (LAN, WAN, etc.)
+- Internet and standardization
+
+### Part 2: Physical Layer
+- Signals (analog & digital)
+- Transmission (multiplexing, impairments)
+- Media types (twisted pair, fiber, radio)
+
+### Part 3: Data Link Layer
+- Error detection/correction (CRC, checksum)
+- MAC protocols (CSMA/CD, ALOHA)
+- Wired and Wireless LANs (Ethernet, Wi-Fi, Bluetooth)
+- VLANs, Backbone networks
+
+### Part 4: Network Layer
+- IP addressing (IPv4 & IPv6)
+- Routing protocols (Distance Vector, Link State)
+- ICMP, ARP, RARP, IGMP
+
+### Part 5: Transport Layer
+- Protocols: TCP, UDP, SCTP
+- Flow control, error handling, congestion
+
+### Part 6: Application Layer
+- DNS, Telnet, FTP, HTTP, Email (SMTP, POP, IMAP)
+- SNMP and network management
+- Multimedia and streaming
+
+### Part 7: Network Security
+- Cryptography (RSA, AES)
+- Network security protocols (IPSec, SSL/TLS, VPN, Firewalls)
+
+
 # COMPUTER NETWORKING
 
 # What is Data Communication? 
